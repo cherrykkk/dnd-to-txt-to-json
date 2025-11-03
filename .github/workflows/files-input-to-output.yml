@@ -1,0 +1,45 @@
+name: files input to output
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  files-input-to-output:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: "pnpm"
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Generate files-output
+        run: pnpm write
+
+      - name: Commit files-output (always; allow empty)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A files-output
+          git commit --allow-empty -m "chore(files-output): update generated output [skip ci]"
+
+      - name: Push to output branch (force)
+        run: |
+          git push origin HEAD:output --force
