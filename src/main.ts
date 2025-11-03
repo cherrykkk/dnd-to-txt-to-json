@@ -1,7 +1,7 @@
 // 直接运行：打印结果，并简单对比是否与 MOCK_MONSTER_HTML 一致
 import { MOCK_MONSTER_HTML } from "tests/test_Commoner";
 import { parseMonsterTxtToJson } from "parse-to-json";
-import { readTxtFromFile, writeHtmlToFile } from "read-write";
+import { readTxtFromFile, writeHtmlToFile, getInputFilenames } from "read-write";
 import { monsterJsonToHtml } from "json-to-html";
 
 if (process.argv.includes("--print")) {
@@ -17,7 +17,7 @@ if (process.argv.includes("--check")) {
   console.log(same ? "MATCH" : "DIFF");
 }
 if (process.argv.includes("--write")) {
-  const files = ["Sea_Hag", "Djinni", "Commoner"];
+  const files = getInputFilenames();
 
   for (const filename of files) {
     const txt = readTxtFromFile(`./files-input/${filename}.txt`);

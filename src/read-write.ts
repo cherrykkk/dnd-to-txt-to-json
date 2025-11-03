@@ -24,3 +24,15 @@ export function writeHtmlToFile(html: string, withCss = true) {
   fs.writeFileSync(filePath, html, "utf8");
   console.log(`Wrote: ${path.relative(process.cwd(), filePath)}`);
 }
+
+/**
+ * 读取 ./files-input 目录下的所有 .txt 文件名（去掉扩展名）
+ */
+export function getInputFilenames(): string[] {
+  const dir = "./files-input";
+  const entries = fs.readdirSync(dir, { withFileTypes: true });
+  return entries
+    .filter((e) => e.isFile() && /\.txt$/i.test(e.name))
+    .map((e) => e.name.replace(/\.txt$/i, ""))
+    .sort((a, b) => a.localeCompare(b, "en"));
+}
