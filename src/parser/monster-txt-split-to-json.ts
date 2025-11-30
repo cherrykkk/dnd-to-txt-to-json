@@ -1,5 +1,5 @@
 import { MonsterCard, AbilityEntry, AbilityName } from "../card-types";
-import { isNewBlockTitle } from "parser/monster-misc";
+import { isNewBlockTitle } from "./monster-misc";
 
 /**
  * 施法动作描述如下，需要特殊处理

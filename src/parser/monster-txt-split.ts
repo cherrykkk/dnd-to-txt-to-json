@@ -1,5 +1,5 @@
 // 一般会是一个怪物一个页面，但该页面分为怪物背景描述和怪物卡信息
-import { isTitleLine, parseMonsterTitleLine } from "parser/monster-misc";
+import { isTitleLine, parseMonsterTitleLine } from "./monster-misc";
 
 /**
   将根据
