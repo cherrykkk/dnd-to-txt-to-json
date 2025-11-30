@@ -9,13 +9,13 @@ export interface AbilityEntry {
 }
 
 export interface MonsterCard {
-  eng_name: string; // 用于 <h5 id="...">
+  ENG_name: string; // 用于 <h5 id="...">
   title: string; // 第一行完整标题，如：海鬼婆Sea Hag
   subLine: string; // 第二行副标题
-  ac: string; // AC 字段原样
-  init: string; // 先攻
-  hp: string; // HP
-  speed: string; // 速度
+  /**
+   * 可能包括 AC、先攻、HP、速度、技能、抗性、免疫、装备、感官、语言、CR
+   */
+  simpleInfo: Record<string, string>;
   abilities: {
     // 6 项能力，顺序任意，但通常 STR/DEX/CON/INT/WIS/CHA
     str: AbilityEntry;
@@ -25,10 +25,9 @@ export interface MonsterCard {
     wis: AbilityEntry;
     cha: AbilityEntry;
   };
-  equip?: string;
-  senses?: string;
-  languages?: string;
-  cr?: string;
-  traits: { name: string; text: string }[]; // 特质：名称+描述（名称行末含全角句号“。”）
-  actions: { name: string; text: string }[]; // 动作：名称+描述（名称行末含全角句号“。”）
+  traits?: { name: string; text: string }[]; // 特质：名称+描述（名称行末含全角句号“。”）
+  actions?: { name: string; text: string }[]; // 动作：名称+描述（名称行末含全角句号“。”）
+  bonusActions?: { name: string; text: string }[]; // 动作：名称+描述（名称行末含全角句号“。”）
+  reactions?: { name: string; text: string }[]; // 动作：名称+描述（名称行末含全角句号“。”）
+  legendaryActions?: { name: string; text: string }[]; // 动作：名称+描述（名称行末含全角句号“。”）
 }

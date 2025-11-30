@@ -2,8 +2,17 @@ import { MonsterCard } from "card-types";
 
 // 将 MonsterCard JSON 生成与示例相同结构的 HTML 片段
 export function monsterJsonToHtml(card: MonsterCard): string {
-  const { eng_name, title, subLine, ac, init, hp, speed, abilities, equip, senses, languages, cr } =
-    card;
+  const { ENG_name, title, subLine, abilities } = card;
+  const {
+    AC: ac = "",
+    先攻: init = "",
+    HP: hp = "",
+    速度: speed = "",
+    装备: equip = "",
+    感官: senses = "",
+    语言: languages = "",
+    CR: cr = "",
+  } = card.simpleInfo;
 
   const abilityRow1 = [
     abilityCells(abilities.str, "c1", "c2"),
@@ -16,11 +25,11 @@ export function monsterJsonToHtml(card: MonsterCard): string {
     abilityCells(abilities.cha, "c3", "c4"),
   ].join("<td></td>");
 
-  const traitsHtml = card.traits
+  const traitsHtml = (card.traits ?? [])
     .map((t) => `<strong>${escapeHtml(t.name)}</strong>${escapeHtml(t.text)}<br>`)
     .join("\n");
 
-  const actionsHtml = card.actions
+  const actionsHtml = (card.actions ?? [])
     .map((a) => {
       const text = inlineEmphasis(escapeHtml(a.text));
       return `<strong>${escapeHtml(a.name)}</strong>${text}`;
@@ -28,7 +37,7 @@ export function monsterJsonToHtml(card: MonsterCard): string {
     .join("<br>\n");
 
   return `<div class="stat-block">
-<h5 id="${escapeAttr(eng_name)}">${escapeHtml(title)}</h5>
+<h5 id="${escapeAttr(ENG_name)}">${escapeHtml(title)}</h5>
 <div class="sub-line">${escapeHtml(subLine)}</div>
 <table><tbody><tr><td><strong>AC </strong>${escapeHtml(ac)}</td><td width="40%"><strong>先攻 </strong>${escapeHtml(init)}</td></tr>
 <tr><td colspan="2"><strong>HP </strong>${escapeHtml(hp)}</td></tr>

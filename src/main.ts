@@ -1,7 +1,7 @@
 // 直接运行：打印结果，并简单对比是否与 MOCK_MONSTER_HTML 一致
 import { MOCK_MONSTER_HTML } from "tests/test_Commoner";
-import { parseMonsterTxtToJson } from "parse-to-json";
-import { readTxtFromFile, writeHtmlToFile, getInputFilenames } from "read-write";
+import { parseMonsterTxtToJson } from "./parser/monster-txt-to-json";
+import { readTxtFromFile, writeHtmlToFile, getInputFilenames } from "api/read-write";
 import { monsterJsonToHtml } from "json-to-html";
 
 if (process.argv.includes("--print")) {

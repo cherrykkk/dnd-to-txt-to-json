@@ -25,7 +25,7 @@
 </template>
 <script lang="ts" setup>
 import { computed, ref } from "vue";
-import { parseMonsterTxtToJson } from "../parse-to-json";
+import { parseMonsterTxtToJson } from "../parser/monster-txt-to-json";
 import { monsterJsonToHtml } from "../json-to-html";
 import { MonsterCard } from "card-types";
 import MonsterCardPreview from "./MonsterCardPreview.vue";
