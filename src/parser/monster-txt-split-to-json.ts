@@ -19,7 +19,11 @@ const ABILITY_NAME_MAP = {
   魅力: "cha",
 };
 
-const INFO_KEYS = ["HP", "AC", "先攻", "速度"];
+const INFO_KEYS = ["HP", "AC", "先攻", "速度", "生命值", "护甲等级"];
+const REPLACE_KEY: Record<string, string> = {
+  生命值: "HP",
+  护甲等级: "AC",
+};
 
 function splitNameAndText(line: string): { name: string; text: string } {
   // 形如：XXX。YYYY -> name 含结尾的“。”，text 为其后描述
@@ -66,7 +70,9 @@ export function parseMonsterTxtSplitToJson(txt: string): MonsterCard {
       // console.log(curPair);
       nextPair = fineNextKeyIndex(line, curPair.index + curPair.key.length);
       let curVal = line.slice(curPair.index + curPair.key.length, nextPair?.index).trim();
-      simpleInfo[curPair.key] = curVal;
+
+      const key = REPLACE_KEY[curPair.key] ?? curPair.key;
+      simpleInfo[key] = curVal;
       curPair = nextPair;
     }
   };
@@ -77,6 +83,7 @@ export function parseMonsterTxtSplitToJson(txt: string): MonsterCard {
     if (remainingLines.length === 0) break;
     curLine = fetchNextLine();
   }
+
   // console.log(simpleInfo);
 
   function parseAbilityRow(row: string | undefined) {
