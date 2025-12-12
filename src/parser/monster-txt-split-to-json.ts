@@ -125,7 +125,14 @@ export function parseMonsterTxtSplitToJson(txt: string): MonsterCard {
 
     if (!curBlock) {
       // not in block, which means in simple info
-      const [name, value] = line.split(" ");
+      const i1 = line.indexOf(":");
+      const i2 = line.indexOf("：");
+      const i3 = line.indexOf(" ");
+      const validIndex = [i1, i2, i3].filter((i) => i !== -1);
+      const splitterIndex = Math.min(...validIndex);
+      if (splitterIndex === -1) continue;
+      const name = line.slice(0, splitterIndex);
+      const value = line.slice(splitterIndex + 1);
       if (!name || !value) continue;
       simpleInfo[name] = value;
     }
