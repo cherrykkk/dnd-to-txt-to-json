@@ -27,7 +27,7 @@ export async function wcpNodeToTxtAndJson(node: WcpNode) {
   let cards: MonsterCard[] = [];
 
   if (node.url) {
-    const html = await fetchWcpNodeFileFromGithub(node)
+    const html = await fetchWcpNodeFileFromGithub(node);
     txt = convertHtmlToText(html);
     const txtSplit = splitMonsterTxt(txt);
     const card = parseMonsterTxtSplitToJson(txtSplit.monsterCard);

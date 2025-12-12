@@ -54,5 +54,3 @@ export function cleanEmptyLines(text: string) {
     .filter(Boolean)
     .join("\n");
 }
-
-

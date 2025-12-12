@@ -3,7 +3,7 @@ import { fetchGitFiles, recurFetchGitFiles } from "api/fetch-folder";
 import fs from "node:fs";
 import { wcpJsonFind, wcpToJson } from "parser/wcp-to-json";
 import { writeTxtToFile } from "api/read-write";
-import { gatherTxtAndJsonArr, wcpNodeToTxtAndJson } from "batch/wcp-node-to-json";
+import { gatherTxtAndJsonArr, wcpNodeToTxtAndJson } from "batch/monster-wcp-node-to-json";
 
 // const testFilePaths = [
 //   "怪物图鉴2025/亡灵/骷髅/骷髅总.htm",
