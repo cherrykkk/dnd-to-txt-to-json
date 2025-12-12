@@ -1,5 +1,12 @@
 import iconv from "iconv-lite";
 import { GITHUB_TOKEN } from "api/github-token";
+import { WcpNode } from "parser/wcp-to-json";
+
+export async function fetchWcpNodeFileFromGithub(node: WcpNode) {
+  const validUrl = node.url.replaceAll("\\", "/");
+  const html = await fetchFromGitHub(validUrl);
+  return html;
+}
 
 export async function fetchFromGitHub(path: string, ref = "main") {
   // 好像不用 encodeURIComponent 也行

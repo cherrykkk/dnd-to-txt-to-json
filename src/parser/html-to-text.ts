@@ -55,9 +55,4 @@ export function cleanEmptyLines(text: string) {
     .join("\n");
 }
 
-console.log(
-  convertHtmlToText(
-    '<H5 id="Shield_Guardian">盾卫Shield Guardian</H5>\n' +
-      '<div class="sub-line">大型构装，无阵营</div>',
-  ),
-);
+

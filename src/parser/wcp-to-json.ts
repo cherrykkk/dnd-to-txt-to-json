@@ -10,9 +10,14 @@ export interface WcpNode {
 export function wcpJsonFind(wcpJsonArr: WcpNode[], path: string) {
   const pathSplit = path.split("/");
   let output: WcpNode | null = null;
+  console.log(pathSplit);
   while (pathSplit.length > 0) {
     const curTitle = pathSplit.shift();
-    output = wcpJsonArr.find((e) => e.title === curTitle) ?? null;
+    if (!output) {
+      output = wcpJsonArr.find((e) => e.title === curTitle) ?? null;
+    } else {
+      output = output.children.find((e) => e.title === curTitle) ?? null;
+    }
   }
   return output;
 }

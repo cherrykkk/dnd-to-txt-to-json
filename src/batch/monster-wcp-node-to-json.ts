@@ -1,5 +1,5 @@
 import { WcpNode } from "parser/wcp-to-json";
-import { fetchFromGitHub } from "api/fetch-html";
+import { fetchFromGitHub, fetchWcpNodeFileFromGithub } from "api/fetch-html";
 import { MonsterCard } from "card-types";
 import { convertHtmlToText } from "parser/html-to-text";
 import { splitMonsterTxt } from "parser/monster-txt-split";
@@ -27,8 +27,7 @@ export async function wcpNodeToTxtAndJson(node: WcpNode) {
   let cards: MonsterCard[] = [];
 
   if (node.url) {
-    const validUrl = node.url.replaceAll("\\", "/");
-    const html = await fetchFromGitHub(validUrl);
+    const html = await fetchWcpNodeFileFromGithub(node)
     txt = convertHtmlToText(html);
     const txtSplit = splitMonsterTxt(txt);
     const card = parseMonsterTxtSplitToJson(txtSplit.monsterCard);
