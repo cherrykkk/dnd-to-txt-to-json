@@ -79,6 +79,12 @@ gatheredList["MOT"] = await gatherMagicItemsFromBook("塞洛斯之神话奥德�
 gatheredList["SCC"] = await gatherMagicItemsFromPage(
   "斯翠海文：混沌研习（无模组）/角色选项/魔法物品",
 );
+gatheredList["DSotDQ"] = await gatherMagicItemsFromPage(
+  "龙枪：龙后之影（无模组）/附录：装备和魔法物品/魔法物品",
+);
+
+// 这个太特别了，格式是 奇物 非普通 中间是空格不是逗号
+// gatheredList[] = await gatherMagicItemsFromPage('荒洲探险家指南*/荒洲宝藏/宝藏')
 
 writeTxtToFile(
   Object.values(gatheredList)
