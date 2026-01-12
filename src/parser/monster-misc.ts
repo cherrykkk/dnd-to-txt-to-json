@@ -17,30 +17,39 @@ export function parseMonsterTitleLine(line: string) {
   return { name_CH, name_ENG };
 }
 
+// 规范化区块标题，兼容大小写、空格和冒号差异
+const normalizeBlockTitle = (line: string) =>
+  line.replace(/\s+/g, "").replace(/[：:]/g, "").toLowerCase();
+
 const linesMapKey = [
   {
     key: "traits",
-    from: ["特质Traits", "特质", "traits"],
+    from: ["特质Traits", "特质", "traits", "特性", "特性Traits"],
   },
   {
     key: "actions",
-    from: ["动作Actions", "动作", "actions"],
+    from: ["动作Actions", "动作", "actions", "动作 Actions"],
   },
   {
     key: "reactions",
-    from: ["反应Reactions", "反应", "reactions"],
+    from: ["反应Reactions", "反应", "reactions", "反应 Reactions"],
   },
   {
     key: "bonusActions",
-    from: ["附赠动作Bonus Actions", "附赠动作", "bonus actions"],
+    from: ["附赠动作Bonus Actions", "附赠动作", "bonus actions", "附赠动作 Bonus Actions"],
   },
   {
     key: "legendaryActions",
-    from: ["传奇动作Legendary Actions", "传奇动作", "legendary actions"],
+    from: [
+      "传奇动作Legendary Actions",
+      "传奇动作",
+      "legendary actions",
+      "传奇动作 Legendary Actions",
+    ],
   },
 ];
 export function isNewBlockTitle(line: string) {
   for (const item of linesMapKey) {
-    if (item.from.find((e) => e.toLowerCase() === line.toLowerCase())) return item.key;
+    if (item.from.find((e) => normalizeBlockTitle(e) === normalizeBlockTitle(line))) return item.key;
   }
 }

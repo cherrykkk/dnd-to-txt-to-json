@@ -2,11 +2,16 @@ import path from "path";
 import { fetchFromGitHub } from "../api/fetch-html";
 import { writeTxtToFile } from "../api/read-write";
 import { convertHtmlToText } from "../parser/html-to-text";
-import { spellTxtToJson } from "../parser/spell-txt-to-json";
-import { splitSpellTxt } from "../parser/spell-txt-split";
+import { spellTxtToJson } from "../parser/json/spell-json";
+import { splitSpellTxt } from "../parser/split/spell-split";
 
-export async function fetchHtmlThenToTxtThenToJsonAndWrite(basePath: string, pages: string[]) {
-  const taskGroup = pages.map((e) => fetchHtmlThenToTxtThenToJson(basePath + "/" + e));
+export async function fetchHtmlThenToTxtThenToJsonAndWrite(
+  basePath: string,
+  pages: string[],
+  debug = false,
+) {
+  console.log(debug);
+  const taskGroup = pages.map((e) => fetchHtmlThenToTxtThenToJson(basePath + "/" + e, debug));
   const resultGroup = await Promise.all(taskGroup);
 
   const spellList = resultGroup.flat();
@@ -25,15 +30,15 @@ async function fetchHtmlThenToTxtThenToJson(filePath: string, debug = false) {
 
   if (debug) {
     const name = path.parse(filePath).name;
+    writeTxtToFile(input, `debug-源-` + name.split("/").join("-") + "" + ".html");
     writeTxtToFile(
       txtBlocks.join("\n--------------\n"),
-      `分割-` + name.split("/").join("-") + "" + ".txt",
+      `debug-分割-` + name.split("/").join("-") + "" + ".txt",
     );
   }
 
   const structuredSpells = txtBlocks.map((e) => spellTxtToJson(e));
   return structuredSpells;
 }
-
 
 // fsPromises.writeFile("./class_spell_list_map.json", JSON.stringify(classSpellListMap));

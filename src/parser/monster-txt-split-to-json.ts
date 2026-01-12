@@ -9,7 +9,6 @@ import { isNewBlockTitle } from "./monster-misc";
  每项1/日：连锁闪电Chain Lightning，死亡一指Finger of Death，律令死亡Power Word Kill，探知术Scrying
  */
 
-const splitSigns = /\\t|\t| /;
 const ABILITY_NAME_MAP = {
   力量: "str",
   敏捷: "dex",
@@ -70,6 +69,7 @@ export function parseMonsterTxtSplitToJson(txt: string): MonsterCard {
       // console.log(curPair);
       nextPair = fineNextKeyIndex(line, curPair.index + curPair.key.length);
       let curVal = line.slice(curPair.index + curPair.key.length, nextPair?.index).trim();
+      curVal = curVal.replace(/^[:：]\s*/, "");
 
       const key = REPLACE_KEY[curPair.key] ?? curPair.key;
       simpleInfo[key] = curVal;
@@ -113,6 +113,20 @@ export function parseMonsterTxtSplitToJson(txt: string): MonsterCard {
   let curBlock = "";
   let inSpellcasting = false; // 5e 的施法描述不太规范
   const traitsAndActions: Record<string, { name: string; text: string }[]> = {};
+  const appendToLast = (arr: { name: string; text: string }[], extraLine: string) => {
+    if (arr.length === 0) return false;
+    const lastItem = arr[arr.length - 1];
+    const separator = lastItem.text ? "\n" : "";
+    lastItem.text = `${lastItem.text}${separator}${extraLine}`;
+    return true;
+  };
+  const isLikelyNewEntry = (item: { name: string; text: string }) => {
+    const trimmedName = item.name.trim();
+    if (!trimmedName) return false;
+    if (trimmedName.length > 20) return false; // 长句更可能是上一行的续写
+    if (/[，,:：]/.test(trimmedName)) return false; // 名称通常不含逗号/冒号
+    return true;
+  };
 
   while (remainingLines.length > 0) {
     const line = fetchNextLine();
@@ -129,8 +143,8 @@ export function parseMonsterTxtSplitToJson(txt: string): MonsterCard {
       const i2 = line.indexOf("：");
       const i3 = line.indexOf(" ");
       const validIndex = [i1, i2, i3].filter((i) => i !== -1);
+      if (validIndex.length === 0) continue;
       const splitterIndex = Math.min(...validIndex);
-      if (splitterIndex === -1) continue;
       const name = line.slice(0, splitterIndex);
       const value = line.slice(splitterIndex + 1);
       if (!name || !value) continue;
@@ -156,6 +170,10 @@ export function parseMonsterTxtSplitToJson(txt: string): MonsterCard {
         continue;
       } else {
         const item = splitNameAndText(line);
+        if (!isLikelyNewEntry(item) && appendToLast(curArr, line)) {
+          traitsAndActions[curBlock] = curArr;
+          continue;
+        }
         curArr.push(item);
         traitsAndActions[curBlock] = curArr;
         if (line.startsWith("施法Spellcasting。")) {

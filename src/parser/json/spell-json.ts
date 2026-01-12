@@ -45,13 +45,10 @@ export function spellTxtToJson(txt: string) {
       }
     }
 
-    const [castingTimeName, castingTime] = fetchNextLine().split("：");
-    if (castingTimeName !== "施法时间") {
-      throw new Error('the second line should be "施法时间："');
-    }
-    const range = fetchNextLine().split("：")[1];
-    const components = fetchNextLine().split("：")[1];
-    const duration = fetchNextLine().split("：")[1];
+    const castingTime = fetchNextLine().replace("施法时间：", "");
+    const range = fetchNextLine().replace("施法距离：", "");
+    const components = fetchNextLine().replace("法术成分：", "");
+    const duration = fetchNextLine().replace("持续时间：", "");
     return {
       name,
       rawName,
