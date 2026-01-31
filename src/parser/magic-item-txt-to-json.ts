@@ -1,4 +1,4 @@
-import { parseAsCategoryAndRarityAndAttunement } from "parser/magic-item-txt-split";
+import { parseAsCategoryAndRarityAndAttunement } from "./identify/magic-item-identify";
 
 export function magicItemSegmentToJson(seg: string) {
   const lines = seg.split("\n");
