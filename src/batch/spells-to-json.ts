@@ -15,6 +15,11 @@ export async function fetchHtmlThenToTxtThenToJsonAndWrite(
   const resultGroup = await Promise.all(taskGroup);
 
   const spellList = resultGroup.flat();
+  spellList.sort((a, b) => {
+    if (a.rawName > b.rawName) {
+      return 1
+    } else { return -1 }
+  })
   writeTxtToFile(
     JSON.stringify(spellList, undefined, 2),
     `格式化-${basePath.split("/").join("-")}.json`,
