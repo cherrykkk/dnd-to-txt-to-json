@@ -49,6 +49,15 @@ export function spellTxtToJson(txt: string) {
     const range = fetchNextLine().replace("施法距离：", "");
     const components = fetchNextLine().replace("法术成分：", "");
     const duration = fetchNextLine().replace("持续时间：", "");
+
+    /**
+     * 2014版本：一环 预言（仪式；吟游诗人、牧师、德鲁伊、圣武士、游侠、术士、法师、奇械师）
+     *          施法时间：1 动作
+     * 2024版本：一环 预言（吟游诗人、牧师、德鲁伊、圣武士、游侠、术士、魔契师、法师、奇械师）
+     *          施法时间：动作或仪式
+     */
+    const ritual = secondLine.includes("仪式") || castingTime.includes('仪式')
+
     return {
       name,
       rawName,
@@ -60,7 +69,7 @@ export function spellTxtToJson(txt: string) {
       duration,
       description: lines.join("\n"),
       material: "",
-      ritual: false,
+      ritual,
     };
   } catch (error) {
     console.log(e, error);
