@@ -44,6 +44,11 @@ export function spellTxtToJson(txt: string) {
         level = levelMap[levelChZn];
       }
     }
+    /**
+     * 寒冰赋权｜Investiture of Ice
+     * 六环 变化系（德鲁伊、术士、魔契师、法师）
+     */
+    if (school === "变化系") school = "变化";
 
     const castingTime = fetchNextLine().replace("施法时间：", "");
     const range = fetchNextLine().replace("施法距离：", "");
