@@ -41,6 +41,48 @@ export function convertHtmlToText(inputHtml: string) {
   return text;
 }
 
+export function convertHtmlToTextForCHM5ESpell(inputHtml: string) {
+  const text = convert(inputHtml, {
+    wordwrap: false,
+    preserveNewlines: false,
+    selectors: [
+      { selector: "p", options: { leadingLineBreaks: 1, trailingLineBreaks: 1 } },
+      { selector: "h1", options: HEADING_OPTIONS },
+      { selector: "h2", options: HEADING_OPTIONS },
+      { selector: "h3", options: HEADING_OPTIONS },
+      {
+        selector: "h4",
+        options: { leadingLineBreaks: 2, trailingLineBreaks: 1, uppercase: false },
+      },
+      { selector: "h5", options: HEADING_OPTIONS },
+      { selector: "h6", options: HEADING_OPTIONS },
+      { selector: "h5", options: HEADING_OPTIONS },
+      { selector: "h6", options: HEADING_OPTIONS },
+      {
+        selector: "td",
+        format: "tdWithSpace",
+      },
+      {
+        selector: "tr",
+        format: "block",
+        options: { leadingLineBreaks: 1, trailingLineBreaks: 1 },
+      },
+    ],
+    formatters: {
+      tdWithSpace(elem, walk, builder) {
+        builder.addInline(" ");
+        walk(elem.children, builder);
+        builder.addInline(" ");
+      },
+    },
+    // { selector: "table", options: { leadingLineBreaks: 1, trailingLineBreaks: 1 } },
+  });
+
+  // const output = cleanEmptyLines(text);
+  // console.log(output);
+  return text;
+}
+
 export function cleanEmptyLines(text: string) {
   // return text
   //   .split(/\n\n/)

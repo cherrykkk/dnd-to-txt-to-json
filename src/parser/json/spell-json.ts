@@ -56,7 +56,7 @@ export function spellTxtToJson(txt: string) {
      * 2024版本：一环 预言（吟游诗人、牧师、德鲁伊、圣武士、游侠、术士、魔契师、法师、奇械师）
      *          施法时间：动作或仪式
      */
-    const ritual = secondLine.includes("仪式") || castingTime.includes('仪式')
+    const ritual = secondLine.includes("仪式") || castingTime.includes("仪式");
 
     return {
       name,
@@ -68,7 +68,6 @@ export function spellTxtToJson(txt: string) {
       components,
       duration,
       description: lines.join("\n"),
-      material: "",
       ritual,
     };
   } catch (error) {
