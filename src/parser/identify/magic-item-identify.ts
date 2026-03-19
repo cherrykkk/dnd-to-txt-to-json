@@ -29,36 +29,39 @@ export function parseAsCategoryAndRarityAndAttunement(line: string) {
   // 分割结果可能不止两个元素，例如类型 10 的情况
   const categoryAnd = parseResult1.shift() ?? "";
   const rarityAndAttunement = parseResult1.join("，");
-  const category = categoryAnd.split(/[（）,， ]/).filter(Boolean)[0];
+  const category = categoryAnd.split(/[（）,， ]/).filter(Boolean)[0] ?? "";
   if (rarityAndAttunement.includes("同调")) {
     const parseResult2 = rarityAndAttunement.match(/^(.*?)(?:（([^（）]+)）)\s*$/);
     if (parseResult2 && parseResult2[2] && parseResult2[2].includes("同调")) {
       return {
         category: categoryAnd,
-        rarity:
-          parseResult2[1] ??
-          "".replace("多种珍稀度", "多种稀有度").replace("稀有度依符镇兵种类而不同", "多种稀有度"),
+        rarity: normalizeRarity(parseResult2[1] ?? ""),
         attunement: parseResult2[2],
       };
     } else {
-      throw new Error(rarityAndAttunement);
+      return { category: "", rarity: "", attunement: "" };
     }
   } else {
-    const rarity = rarityAndAttunement.split(/[（）,， ]/).filter(Boolean)[0];
+    const rarity = rarityAndAttunement.split(/[（）,， ]/).filter(Boolean)[0] ?? "";
     // 先分割再完全匹配，避免一句话中偶然出现这两种词
-    if (categories.includes(category) && rarities.includes(rarity)) {
+    if (category && categories.includes(category) && rarity && rarities.includes(rarity)) {
       // 存在不标准格式如同“奇物， 珍稀（需同调）” 一样在逗号后多了个空格，故加一个 trim
       const attunement = rarityAndAttunement.trim().replace(rarity, "");
 
       return {
         category: categoryAnd,
-        rarity: rarity
-          .replace("多种珍稀度", "多种稀有度")
-          .replace("稀有度依符镇兵种类而不同", "多种稀有度"),
+        rarity: normalizeRarity(rarity),
         attunement,
       };
     } else {
       return { category: "", rarity: "", attunement: "" };
     }
   }
+}
+
+function normalizeRarity(input: string) {
+  return input
+    .trim()
+    .replace("多种珍稀度", "多种稀有度")
+    .replace("稀有度依符镇兵种类而不同", "多种稀有度");
 }
