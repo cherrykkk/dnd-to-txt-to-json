@@ -2,25 +2,28 @@ import { fetchHtmlThenToTxtThenToJsonAndWrite } from "batch/spells-to-json";
 import { splitSpellTxtForCHM5E } from "./parser/split/spell-split";
 import { convertHtmlToTextForCHM5ESpell } from "./parser/html-to-text";
 
-const debug = true;
+const debug = false;
 
-// fetchHtmlThenToTxtThenToJsonAndWrite(
-//   "玩家手册/魔法/法术详述",
-//   ["戏法", "1环", "2环", "3环", "4环", "5环", "6环", "7环", "8环", "9环"].map((e) => `${e}.html`),
-//   debug,
-//   { splitSpellTxt: splitSpellTxtForCHM5E, convertHtmlToText: convertHtmlToTextForCHM5ESpell },
-// );
+fetchHtmlThenToTxtThenToJsonAndWrite(
+  "玩家手册/魔法/法术详述",
+  ["戏法", "1环", "2环", "3环", "4环", "5环", "6环", "7环", "8环", "9环"].map((e) => `${e}.html`),
+  debug,
+  { splitSpellTxt: splitSpellTxtForCHM5E, convertHtmlToText: convertHtmlToTextForCHM5ESpell },
+);
 // fetchHtmlThenToTxtThenToJsonAndWrite(
 //   "玩家手册2024/法术详述",
-//   ["0环", "1环", "2环", "3环", "4环", "5环", "6环", "7环", "8环", "9环"].map(
-//     (e) => `${e}.htm`,
-//   ),
+//   ["0环", "1环", "2环", "3环", "4环", "5环", "6环", "7环", "8环", "9环"].map((e) => `${e}.htm`),
 //   debug,
 // );
 // fetchHtmlThenToTxtThenToJsonAndWrite(
 //   "塔莎的万事坩埚/法术/法术详述",
 //   ["戏法", "1环", "2环", "3环", "4环", "5环", "6环", "7环", "9环"].map((e) => `${e}.html`),
 // );
+fetchHtmlThenToTxtThenToJsonAndWrite(
+  "珊娜萨的万事指南/法术/法术详述",
+  ["戏法", "1环", "2环", "3环", "4环", "5环", "6环", "7环", "8环", "9环"].map((e) => `${e}.html`),
+  debug,
+);
 fetchHtmlThenToTxtThenToJsonAndWrite(
   "珊娜萨的万事指南/法术/法术详述",
   ["戏法", "1环", "2环", "3环", "4环", "5环", "6环", "7环", "8环", "9环"].map((e) => `${e}.html`),
