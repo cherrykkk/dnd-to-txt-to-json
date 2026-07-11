@@ -10,7 +10,7 @@ export interface AbilityEntry {
 
 export interface MonsterCard {
   ENG_name: string; // 用于 <h5 id="...">
-  title: string; // 第一行完整标题，如：海鬼婆Sea Hag
+  title: string; // 中文标题，如：海鬼婆
   subLine: string; // 第二行副标题
   /**
    * 可能包括 AC、先攻、HP、速度、技能、抗性、免疫、装备、感官、语言、CR

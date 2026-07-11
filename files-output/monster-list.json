@@ -1,7 +1,7 @@
 [
   {
     "ENG_name": "Slaad Tadpole",
-    "title": "史拉蟾蝌蚪Slaad Tadpole",
+    "title": "史拉蟾蝌蚪",
     "subLine": "微型异怪，混乱中立",
     "simpleInfo": {
       "AC": "12",
@@ -70,7 +70,7 @@
   },
   {
     "ENG_name": "Red Slaad",
-    "title": "史拉红蟾Red Slaad",
+    "title": "史拉红蟾",
     "subLine": "大型异怪，混乱中立",
     "simpleInfo": {
       "AC": "14",
@@ -151,7 +151,7 @@
   },
   {
     "ENG_name": "Blue Slaad",
-    "title": "史拉蓝蟾Blue Slaad",
+    "title": "史拉蓝蟾",
     "subLine": "大型异怪，混乱中立",
     "simpleInfo": {
       "AC": "15",
@@ -228,7 +228,7 @@
   },
   {
     "ENG_name": "Green Slaad",
-    "title": "史拉绿蟾Green Slaad",
+    "title": "史拉绿蟾",
     "subLine": "大型异怪，混乱中立",
     "simpleInfo": {
       "AC": "16",
@@ -315,7 +315,7 @@
   },
   {
     "ENG_name": "Gray Slaad",
-    "title": "史拉灰蟾Gray Slaad",
+    "title": "史拉灰蟾",
     "subLine": "中型异怪，混乱中立",
     "simpleInfo": {
       "AC": "18",
@@ -402,7 +402,7 @@
   },
   {
     "ENG_name": "Death Slaad",
-    "title": "史拉亡蟾Death Slaad",
+    "title": "史拉亡蟾",
     "subLine": "中型异怪，混乱邪恶",
     "simpleInfo": {
       "AC": "18",
@@ -489,7 +489,7 @@
   },
   {
     "ENG_name": "Grick",
-    "title": "穴居攫怪Grick",
+    "title": "穴居攫怪",
     "subLine": "中型异怪，无阵营",
     "simpleInfo": {
       "AC": "14",
@@ -559,7 +559,7 @@
   },
   {
     "ENG_name": "Grick Ancient",
-    "title": "远古穴居攫怪Grick Ancient",
+    "title": "远古穴居攫怪",
     "subLine": "大型异怪，无阵营",
     "simpleInfo": {
       "AC": "18",
@@ -633,7 +633,7 @@
   },
   {
     "ENG_name": "Githzerai Monk",
-    "title": "吉斯泽莱武僧Githzerai Monk",
+    "title": "吉斯泽莱武僧",
     "subLine": "中型异怪（吉斯人），守序中立",
     "simpleInfo": {
       "AC": "14",
@@ -716,7 +716,7 @@
   },
   {
     "ENG_name": "Githzerai Zerth",
-    "title": "吉斯泽莱泽锡修士Githzerai Zerth",
+    "title": "吉斯泽莱泽锡修士",
     "subLine": "中型异怪（吉斯人），守序中立",
     "simpleInfo": {
       "AC": "17",
@@ -799,7 +799,7 @@
   },
   {
     "ENG_name": "Githzerai Psion",
-    "title": "吉斯泽莱灵能使Githzerai Psion",
+    "title": "吉斯泽莱灵能使",
     "subLine": "中型异怪（吉斯人），守序中立",
     "simpleInfo": {
       "AC": "18",
@@ -876,7 +876,7 @@
   },
   {
     "ENG_name": "Githyanki Warrior",
-    "title": "吉斯洋基武者Githyanki Warrior",
+    "title": "吉斯洋基武者",
     "subLine": "中型异怪（吉斯人），守序邪恶",
     "simpleInfo": {
       "AC": "17",
@@ -953,7 +953,7 @@
   },
   {
     "ENG_name": "Githyanki Knight",
-    "title": "吉斯洋基骑士Githyanki Knight",
+    "title": "吉斯洋基骑士",
     "subLine": "中型异怪（吉斯人），守序邪恶",
     "simpleInfo": {
       "AC": "18",
@@ -1030,7 +1030,7 @@
   },
   {
     "ENG_name": "Githyanki Dracomancer",
-    "title": "吉斯洋基龙巫Githyanki Dracomancer",
+    "title": "吉斯洋基龙巫",
     "subLine": "中型异怪（吉斯人），守序邪恶",
     "simpleInfo": {
       "AC": "18",
@@ -1111,7 +1111,7 @@
   },
   {
     "ENG_name": "Spectator",
-    "title": "观察者眼魔Spectator",
+    "title": "观察者眼魔",
     "subLine": "中型异怪（眼魔），守序中立",
     "simpleInfo": {
       "AC": "14",
@@ -1204,7 +1204,7 @@
   },
   {
     "ENG_name": "Beholder",
-    "title": "眼魔Beholder",
+    "title": "眼魔",
     "subLine": "大型异怪，守序邪恶",
     "simpleInfo": {
       "AC": "18",
@@ -1341,7 +1341,7 @@
   },
   {
     "ENG_name": "Mind Flayer",
-    "title": "夺心魔Mind Flayer",
+    "title": "夺心魔",
     "subLine": "中型异怪，守序邪恶",
     "simpleInfo": {
       "AC": "15",
@@ -1423,7 +1423,7 @@
   },
   {
     "ENG_name": "Mind Flayer Arcanist",
-    "title": "夺心魔奥术师Mind Flayer Arcanist",
+    "title": "夺心魔奥术师",
     "subLine": "中型异怪，守序邪恶",
     "simpleInfo": {
       "AC": "16",
@@ -1511,7 +1511,7 @@
   },
   {
     "ENG_name": "Flumph",
-    "title": "呋噜Flumph",
+    "title": "呋噜",
     "subLine": "小型异怪，守序善良",
     "simpleInfo": {
       "AC": "12",
@@ -1591,7 +1591,7 @@
   },
   {
     "ENG_name": "Grimlock",
-    "title": "幽邃盲族Grimlock",
+    "title": "幽邃盲族",
     "subLine": "中型异怪，中立邪恶",
     "simpleInfo": {
       "AC": "11",
@@ -1652,7 +1652,7 @@
   },
   {
     "ENG_name": "Darkmantle",
-    "title": "暗幕魔兽Darkmantle",
+    "title": "暗幕魔兽",
     "subLine": "小型异怪，无阵营",
     "simpleInfo": {
       "AC": "11",
@@ -1717,7 +1717,7 @@
   },
   {
     "ENG_name": "Piercer",
-    "title": "石锥怪Piercer",
+    "title": "石锥怪",
     "subLine": "中型异怪，无阵营",
     "simpleInfo": {
       "AC": "15",
@@ -1788,7 +1788,7 @@
   },
   {
     "ENG_name": "Intellect Devourer",
-    "title": "噬脑怪Intellect Devourer",
+    "title": "噬脑怪",
     "subLine": "微型异怪，守序邪恶",
     "simpleInfo": {
       "AC": "12",
@@ -1868,7 +1868,7 @@
   },
   {
     "ENG_name": "Gibbering Mouther",
-    "title": "呓语之口Gibbering Mouther",
+    "title": "呓语之口",
     "subLine": "中型异怪，混乱中立",
     "simpleInfo": {
       "AC": "9",
@@ -1955,7 +1955,7 @@
   },
   {
     "ENG_name": "Nothic",
-    "title": "诺斯怪Nothic",
+    "title": "诺斯怪",
     "subLine": "中型异怪，中立邪恶",
     "simpleInfo": {
       "AC": "15",
@@ -2030,7 +2030,7 @@
   },
   {
     "ENG_name": "Grell",
-    "title": "触须怪Grell",
+    "title": "触须怪",
     "subLine": "中型异怪，中立邪恶",
     "simpleInfo": {
       "AC": "12",
@@ -2106,7 +2106,7 @@
   },
   {
     "ENG_name": "Chuul",
-    "title": "甲伏怪Chuul",
+    "title": "甲伏怪",
     "subLine": "大型异怪，混乱邪恶",
     "simpleInfo": {
       "AC": "16",
@@ -2186,7 +2186,7 @@
   },
   {
     "ENG_name": "Otyugh",
-    "title": "食腐兽Otyugh",
+    "title": "食腐兽",
     "subLine": "大型异怪，中立",
     "simpleInfo": {
       "AC": "14",
@@ -2258,7 +2258,7 @@
   },
   {
     "ENG_name": "Roper",
-    "title": "石绳怪Roper",
+    "title": "石绳怪",
     "subLine": "大型异怪，中立邪恶",
     "simpleInfo": {
       "AC": "20",
@@ -2337,7 +2337,7 @@
   },
   {
     "ENG_name": "Cloaker",
-    "title": "斗篷怪Cloaker",
+    "title": "斗篷怪",
     "subLine": "大型异怪，混乱中立",
     "simpleInfo": {
       "AC": "14",
@@ -2423,7 +2423,7 @@
   },
   {
     "ENG_name": "Aboleth",
-    "title": "底栖魔鱼Aboleth",
+    "title": "底栖魔鱼",
     "subLine": "大型异怪，守序邪恶",
     "simpleInfo": {
       "AC": "17",
@@ -2528,7 +2528,7 @@
   },
   {
     "ENG_name": "Sphinx of Wonder",
-    "title": "求索斯芬克斯Sphinx of Wonder",
+    "title": "求索斯芬克斯",
     "subLine": "微型天族，守序中立",
     "simpleInfo": {
       "AC": "13",
@@ -2603,7 +2603,7 @@
   },
   {
     "ENG_name": "Sphinx of Secrets",
-    "title": "隐秘斯芬克斯Sphinx of Secrets",
+    "title": "隐秘斯芬克斯",
     "subLine": "大型天族，守序中立",
     "simpleInfo": {
       "AC": "16",
@@ -2689,7 +2689,7 @@
   },
   {
     "ENG_name": "Sphinx of Lore",
-    "title": "晓谕斯芬克斯Sphinx of Lore",
+    "title": "晓谕斯芬克斯",
     "subLine": "大型天族，守序中立",
     "simpleInfo": {
       "AC": "17",
@@ -2785,7 +2785,7 @@
   },
   {
     "ENG_name": "Sphinx of Valor",
-    "title": "勇气斯芬克斯Sphinx of Valor",
+    "title": "勇气斯芬克斯",
     "subLine": "大型天族，守序中立",
     "simpleInfo": {
       "AC": "17",
@@ -2893,7 +2893,7 @@
   },
   {
     "ENG_name": "Deva",
-    "title": "天神使徒Deva",
+    "title": "天神使徒",
     "subLine": "中型天族（天使），守序善良",
     "simpleInfo": {
       "AC": "17",
@@ -2981,7 +2981,7 @@
   },
   {
     "ENG_name": "Planetar",
-    "title": "星天神使Planetar",
+    "title": "星天神使",
     "subLine": "大型天族（天使），守序善良",
     "simpleInfo": {
       "AC": "19",
@@ -3077,7 +3077,7 @@
   },
   {
     "ENG_name": "Solar",
-    "title": "炽天神使Solar",
+    "title": "炽天神使",
     "subLine": "大型天族（天使），守序善良",
     "simpleInfo": {
       "AC": "21",
@@ -3190,7 +3190,7 @@
   },
   {
     "ENG_name": "Empyrean Iota",
-    "title": "至高天微尘Empyrean Iota",
+    "title": "至高天微尘",
     "subLine": "中型天族或邪魔（泰坦），中立",
     "simpleInfo": {
       "AC": "13",
@@ -3274,7 +3274,7 @@
   },
   {
     "ENG_name": "Empyrean",
-    "title": "至高天Empyrean",
+    "title": "至高天",
     "subLine": "巨型天族或邪魔（泰坦），中立",
     "simpleInfo": {
       "AC": "22",
@@ -3378,7 +3378,7 @@
   },
   {
     "ENG_name": "Pegasus",
-    "title": "天马Pegasus",
+    "title": "天马",
     "subLine": "大型天族，混乱善良",
     "simpleInfo": {
       "AC": "12",
@@ -3439,7 +3439,7 @@
   },
   {
     "ENG_name": "Couatl",
-    "title": "羽蛇Couatl",
+    "title": "羽蛇",
     "subLine": "中型天族，守序善良",
     "simpleInfo": {
       "AC": "19",
@@ -3521,7 +3521,7 @@
   },
   {
     "ENG_name": "Unicorn",
-    "title": "独角兽Unicorn",
+    "title": "独角兽",
     "subLine": "大型天族，守序善良",
     "simpleInfo": {
       "AC": "12",
@@ -3624,7 +3624,7 @@
   },
   {
     "ENG_name": "Guardian Naga",
-    "title": "守秘纳迦Guardian Naga",
+    "title": "守秘纳迦",
     "subLine": "大型天族，守序善良",
     "simpleInfo": {
       "AC": "18",
@@ -3704,7 +3704,7 @@
   },
   {
     "ENG_name": "Animal Lord",
-    "title": "兽主Animal Lord",
+    "title": "兽主",
     "subLine": "中型天族，中立",
     "simpleInfo": {
       "AC": "19",
@@ -3845,7 +3845,7 @@
   },
   {
     "ENG_name": "Animated Broom",
-    "title": "活化扫帚Animated Broom",
+    "title": "活化扫帚",
     "subLine": "小型构装，无阵营",
     "simpleInfo": {
       "AC": "15",
@@ -3913,7 +3913,7 @@
   },
   {
     "ENG_name": "Animated Flying Sword",
-    "title": "活化凌空剑Animated Flying Sword",
+    "title": "活化凌空剑",
     "subLine": "小型构装，无阵营",
     "simpleInfo": {
       "AC": "17",
@@ -3975,7 +3975,7 @@
   },
   {
     "ENG_name": "Animated Armor",
-    "title": "活化盔甲Animated Armor",
+    "title": "活化盔甲",
     "subLine": "中型构装，无阵营",
     "simpleInfo": {
       "AC": "18",
@@ -4041,7 +4041,7 @@
   },
   {
     "ENG_name": "Animated Rug of Smothering",
-    "title": "活化闷人毯Animated Rug of Smothering",
+    "title": "活化闷人毯",
     "subLine": "大型构装，无阵营",
     "simpleInfo": {
       "AC": "12",
@@ -4103,7 +4103,7 @@
   },
   {
     "ENG_name": "Gorgon",
-    "title": "石化铁牛Gorgon",
+    "title": "石化铁牛",
     "subLine": "大型构装，无阵营",
     "simpleInfo": {
       "AC": "19",
@@ -4176,7 +4176,7 @@
   },
   {
     "ENG_name": "Brazen Gorgon",
-    "title": "焚化铜牛Brazen Gorgon",
+    "title": "焚化铜牛",
     "subLine": "大型构装，无阵营",
     "simpleInfo": {
       "AC": "19",
@@ -4257,7 +4257,7 @@
   },
   {
     "ENG_name": "Flesh Golem",
-    "title": "血肉魔像Flesh Golem",
+    "title": "血肉魔像",
     "subLine": "中型构装，中立",
     "simpleInfo": {
       "AC": "9",
@@ -4345,7 +4345,7 @@
   },
   {
     "ENG_name": "Clay Golem",
-    "title": "黏土魔像Clay Golem",
+    "title": "黏土魔像",
     "subLine": "大型构装，无阵营",
     "simpleInfo": {
       "AC": "14",
@@ -4436,7 +4436,7 @@
   },
   {
     "ENG_name": "Iron Golem",
-    "title": "铁魔像Iron Golem",
+    "title": "铁魔像",
     "subLine": "大型构装，无阵营",
     "simpleInfo": {
       "AC": "20",
@@ -4524,7 +4524,7 @@
   },
   {
     "ENG_name": "Stone Golem",
-    "title": "石魔像Stone Golem",
+    "title": "石魔像",
     "subLine": "大型构装，无阵营",
     "simpleInfo": {
       "AC": "18",
@@ -4610,7 +4610,7 @@
   },
   {
     "ENG_name": "Homunculus",
-    "title": "人工生命体Homunculus",
+    "title": "人工生命体",
     "subLine": "微型构装，中立",
     "simpleInfo": {
       "AC": "13",
@@ -4677,7 +4677,7 @@
   },
   {
     "ENG_name": "Scarecrow",
-    "title": "稻草人Scarecrow",
+    "title": "稻草人",
     "subLine": "中型构装，混乱邪恶",
     "simpleInfo": {
       "AC": "11",
@@ -4743,7 +4743,7 @@
   },
   {
     "ENG_name": "Helmed Horror",
-    "title": "恐怖铠甲Helmed Horror",
+    "title": "恐怖铠甲",
     "subLine": "中型构装，中立",
     "simpleInfo": {
       "AC": "20",
@@ -4820,7 +4820,7 @@
   },
   {
     "ENG_name": "Shield Guardian",
-    "title": "盾卫Shield Guardian",
+    "title": "盾卫",
     "subLine": "大型构装，无阵营",
     "simpleInfo": {
       "AC": "17",
@@ -4905,7 +4905,7 @@
   },
   {
     "ENG_name": "Colossus",
-    "title": "巨神兵Colossus",
+    "title": "巨神兵",
     "subLine": "超巨型构装（泰坦），无阵营",
     "simpleInfo": {
       "AC": "23",
@@ -5011,7 +5011,7 @@
   },
   {
     "ENG_name": "Kobold Warrior",
-    "title": "狗头人武者Kobold Warrior",
+    "title": "狗头人武者",
     "subLine": "小型龙类，中立",
     "simpleInfo": {
       "AC": "14",
@@ -5083,7 +5083,7 @@
   },
   {
     "ENG_name": "Winged Kobold",
-    "title": "带翼狗头人Winged Kobold",
+    "title": "带翼狗头人",
     "subLine": "小型龙类，中立",
     "simpleInfo": {
       "AC": "15",
@@ -5158,7 +5158,7 @@
   },
   {
     "ENG_name": "Faerie Dragon Youth",
-    "title": "妖精龙青年体Faerie Dragon Youth",
+    "title": "妖精龙青年体",
     "subLine": "微型龙类，混乱善良",
     "simpleInfo": {
       "AC": "13",
@@ -5240,7 +5240,7 @@
   },
   {
     "ENG_name": "Faerie Dragon Adult",
-    "title": "妖精龙成体Faerie Dragon Adult",
+    "title": "妖精龙成体",
     "subLine": "微型龙类，混乱善良",
     "simpleInfo": {
       "AC": "15",
@@ -5322,7 +5322,7 @@
   },
   {
     "ENG_name": "White Dragon Wyrmling",
-    "title": "白龙雏龙White Dragon Wyrmling",
+    "title": "白龙雏龙",
     "subLine": "中型龙类（色彩龙），混乱邪恶",
     "simpleInfo": {
       "AC": "16",
@@ -5400,7 +5400,7 @@
   },
   {
     "ENG_name": "Young White Dragon",
-    "title": "青年白龙Young White Dragon",
+    "title": "青年白龙",
     "subLine": "大型龙类（色彩龙），混乱邪恶",
     "simpleInfo": {
       "AC": "17",
@@ -5478,7 +5478,7 @@
   },
   {
     "ENG_name": "Adult White Dragon",
-    "title": "成年白龙Adult White Dragon",
+    "title": "成年白龙",
     "subLine": "巨型龙类（色彩龙），混乱邪恶",
     "simpleInfo": {
       "AC": "18",
@@ -5574,7 +5574,7 @@
   },
   {
     "ENG_name": "Ancient White Dragon",
-    "title": "远古白龙Ancient White Dragon",
+    "title": "远古白龙",
     "subLine": "超巨型龙类（色彩龙），混乱邪恶",
     "simpleInfo": {
       "AC": "20",
@@ -5670,7 +5670,7 @@
   },
   {
     "ENG_name": "Black Dragon Wyrmling",
-    "title": "黑龙雏龙Black Dragon Wyrmling",
+    "title": "黑龙雏龙",
     "subLine": "中型龙类（色彩龙），混乱邪恶",
     "simpleInfo": {
       "AC": "17",
@@ -5748,7 +5748,7 @@
   },
   {
     "ENG_name": "Young Black Dragon",
-    "title": "青年黑龙Young Black Dragon",
+    "title": "青年黑龙",
     "subLine": "大型龙类（色彩龙），混乱邪恶",
     "simpleInfo": {
       "AC": "18",
@@ -5826,7 +5826,7 @@
   },
   {
     "ENG_name": "Adult Black Dragon",
-    "title": "成年黑龙Adult Black Dragon",
+    "title": "成年黑龙",
     "subLine": "巨型龙类（色彩龙），混乱邪恶",
     "simpleInfo": {
       "AC": "19",
@@ -5926,7 +5926,7 @@
   },
   {
     "ENG_name": "Ancient Black Dragon",
-    "title": "远古黑龙Ancient Black Dragon",
+    "title": "远古黑龙",
     "subLine": "超巨型龙类（色彩龙），混乱邪恶",
     "simpleInfo": {
       "AC": "22",
@@ -6026,7 +6026,7 @@
   },
   {
     "ENG_name": "Green Dragon Wyrmling",
-    "title": "绿龙雏龙Green Dragon Wyrmling",
+    "title": "绿龙雏龙",
     "subLine": "中型龙类（色彩龙），守序邪恶",
     "simpleInfo": {
       "AC": "17",
@@ -6104,7 +6104,7 @@
   },
   {
     "ENG_name": "Young Green Dragon",
-    "title": "青年绿龙Young Green Dragon",
+    "title": "青年绿龙",
     "subLine": "大型龙类（色彩龙），守序邪恶",
     "simpleInfo": {
       "AC": "18",
@@ -6182,7 +6182,7 @@
   },
   {
     "ENG_name": "Adult Green Dragon",
-    "title": "成年绿龙Adult Green Dragon",
+    "title": "成年绿龙",
     "subLine": "巨型龙类（色彩龙），守序邪恶",
     "simpleInfo": {
       "AC": "19",
@@ -6282,7 +6282,7 @@
   },
   {
     "ENG_name": "Ancient Green Dragon",
-    "title": "远古绿龙Ancient Green Dragon",
+    "title": "远古绿龙",
     "subLine": "超巨型龙类（色彩龙），守序邪恶",
     "simpleInfo": {
       "AC": "21",
@@ -6382,7 +6382,7 @@
   },
   {
     "ENG_name": "Blue Dragon Wyrmling",
-    "title": "蓝龙雏龙Blue Dragon Wyrmling",
+    "title": "蓝龙雏龙",
     "subLine": "中型龙类（色彩龙），守序邪恶",
     "simpleInfo": {
       "AC": "17",
@@ -6454,7 +6454,7 @@
   },
   {
     "ENG_name": "Young Blue Dragon",
-    "title": "青年蓝龙Young Blue Dragon",
+    "title": "青年蓝龙",
     "subLine": "大型龙类（色彩龙），守序邪恶",
     "simpleInfo": {
       "AC": "18",
@@ -6526,7 +6526,7 @@
   },
   {
     "ENG_name": "Adult Blue Dragon",
-    "title": "成年蓝龙Adult Blue Dragon",
+    "title": "成年蓝龙",
     "subLine": "巨型龙类（色彩龙），守序邪恶",
     "simpleInfo": {
       "AC": "19",
@@ -6626,7 +6626,7 @@
   },
   {
     "ENG_name": "Ancient Blue Dragon",
-    "title": "远古蓝龙Ancient Blue Dragon",
+    "title": "远古蓝龙",
     "subLine": "超巨型龙类（色彩龙），守序邪恶",
     "simpleInfo": {
       "AC": "22",
@@ -6726,7 +6726,7 @@
   },
   {
     "ENG_name": "Red Dragon Wyrmling",
-    "title": "红龙雏龙Red Dragon Wyrmling",
+    "title": "红龙雏龙",
     "subLine": "中型龙类（色彩龙），混乱邪恶",
     "simpleInfo": {
       "AC": "17",
@@ -6798,7 +6798,7 @@
   },
   {
     "ENG_name": "Young Red Dragon",
-    "title": "青年红龙Young Red Dragon",
+    "title": "青年红龙",
     "subLine": "大型龙类（色彩龙），混乱邪恶",
     "simpleInfo": {
       "AC": "18",
@@ -6870,7 +6870,7 @@
   },
   {
     "ENG_name": "Adult Red Dragon",
-    "title": "成年红龙Adult Red Dragon",
+    "title": "成年红龙",
     "subLine": "巨型龙类（色彩龙），混乱邪恶",
     "simpleInfo": {
       "AC": "19",
@@ -6970,7 +6970,7 @@
   },
   {
     "ENG_name": "Ancient Red Dragon",
-    "title": "远古红龙Ancient Red Dragon",
+    "title": "远古红龙",
     "subLine": "超巨型龙类（色彩龙），混乱邪恶",
     "simpleInfo": {
       "AC": "22",
@@ -7070,7 +7070,7 @@
   },
   {
     "ENG_name": "Brass Dragon Wyrmling",
-    "title": "黄铜龙雏龙Brass Dragon Wyrmling",
+    "title": "黄铜龙雏龙",
     "subLine": "中型龙类（金属龙），混乱善良",
     "simpleInfo": {
       "AC": "15",
@@ -7142,7 +7142,7 @@
   },
   {
     "ENG_name": "Young Brass Dragon",
-    "title": "青年黄铜龙Young Brass Dragon",
+    "title": "青年黄铜龙",
     "subLine": "大型龙类（金属龙），混乱善良",
     "simpleInfo": {
       "AC": "17",
@@ -7218,7 +7218,7 @@
   },
   {
     "ENG_name": "Adult Brass Dragon",
-    "title": "成年黄铜龙Adult Brass Dragon",
+    "title": "成年黄铜龙",
     "subLine": "巨型龙类（金属龙），混乱善良",
     "simpleInfo": {
       "AC": "18",
@@ -7322,7 +7322,7 @@
   },
   {
     "ENG_name": "Ancient Brass Dragon",
-    "title": "远古黄铜龙Ancient Brass Dragon",
+    "title": "远古黄铜龙",
     "subLine": "超巨型龙类（金属龙），混乱善良",
     "simpleInfo": {
       "AC": "20",
@@ -7426,7 +7426,7 @@
   },
   {
     "ENG_name": "Copper Dragon Wyrmling",
-    "title": "赤铜龙雏龙Copper Dragon Wyrmling",
+    "title": "赤铜龙雏龙",
     "subLine": "中型龙类（金属龙），混乱善良",
     "simpleInfo": {
       "AC": "16",
@@ -7498,7 +7498,7 @@
   },
   {
     "ENG_name": "Young Copper Dragon",
-    "title": "青年赤铜龙Young Copper Dragon",
+    "title": "青年赤铜龙",
     "subLine": "大型龙类（金属龙），混乱善良",
     "simpleInfo": {
       "AC": "17",
@@ -7574,7 +7574,7 @@
   },
   {
     "ENG_name": "Adult Copper Dragon",
-    "title": "成年赤铜龙Adult Copper Dragon",
+    "title": "成年赤铜龙",
     "subLine": "巨型龙类（金属龙），混乱善良",
     "simpleInfo": {
       "AC": "18",
@@ -7678,7 +7678,7 @@
   },
   {
     "ENG_name": "Ancient Copper Dragon",
-    "title": "远古赤铜龙Ancient Copper Dragon",
+    "title": "远古赤铜龙",
     "subLine": "超巨型龙类（金属龙），混乱善良",
     "simpleInfo": {
       "AC": "21",
@@ -7782,7 +7782,7 @@
   },
   {
     "ENG_name": "Bronze Dragon Wyrmling",
-    "title": "青铜龙雏龙Bronze Dragon Wyrmling",
+    "title": "青铜龙雏龙",
     "subLine": "中型龙类（金属龙），守序善良",
     "simpleInfo": {
       "AC": "15",
@@ -7864,7 +7864,7 @@
   },
   {
     "ENG_name": "Young Bronze Dragon",
-    "title": "青年青铜龙Young Bronze Dragon",
+    "title": "青年青铜龙",
     "subLine": "大型龙类（金属龙），守序善良",
     "simpleInfo": {
       "AC": "17",
@@ -7946,7 +7946,7 @@
   },
   {
     "ENG_name": "Adult Bronze Dragon",
-    "title": "成年青铜龙Adult Bronze Dragon",
+    "title": "成年青铜龙",
     "subLine": "巨型龙类（金属龙），守序善良",
     "simpleInfo": {
       "AC": "18",
@@ -8050,7 +8050,7 @@
   },
   {
     "ENG_name": "Ancient Bronze Dragon",
-    "title": "远古青铜龙Ancient Bronze Dragon",
+    "title": "远古青铜龙",
     "subLine": "超巨型龙类（金属龙），守序善良",
     "simpleInfo": {
       "AC": "22",
@@ -8154,7 +8154,7 @@
   },
   {
     "ENG_name": "Silver Dragon Wyrmling",
-    "title": "银龙雏龙Silver Dragon Wyrmling",
+    "title": "银龙雏龙",
     "subLine": "中型龙类（金属龙），守序善良",
     "simpleInfo": {
       "AC": "17",
@@ -8230,7 +8230,7 @@
   },
   {
     "ENG_name": "Young Silver Dragon",
-    "title": "青年银龙Young Silver Dragon",
+    "title": "青年银龙",
     "subLine": "大型龙类（金属龙），守序善良",
     "simpleInfo": {
       "AC": "18",
@@ -8306,7 +8306,7 @@
   },
   {
     "ENG_name": "Adult Silver Dragon",
-    "title": "成年银龙Adult Silver Dragon",
+    "title": "成年银龙",
     "subLine": "巨型龙类（金属龙），守序善良",
     "simpleInfo": {
       "AC": "19",
@@ -8410,7 +8410,7 @@
   },
   {
     "ENG_name": "Ancient Silver Dragon",
-    "title": "远古银龙Ancient Silver Dragon",
+    "title": "远古银龙",
     "subLine": "超巨型龙类（金属龙），守序善良",
     "simpleInfo": {
       "AC": "22",
@@ -8514,7 +8514,7 @@
   },
   {
     "ENG_name": "Gold Dragon Wyrmling",
-    "title": "金龙雏龙Gold Dragon Wyrmling",
+    "title": "金龙雏龙",
     "subLine": "中型龙类（金属龙），守序善良",
     "simpleInfo": {
       "AC": "17",
@@ -8596,7 +8596,7 @@
   },
   {
     "ENG_name": "Young Gold Dragon",
-    "title": "青年金龙Young Gold Dragon",
+    "title": "青年金龙",
     "subLine": "大型龙类（金属龙），守序善良",
     "simpleInfo": {
       "AC": "18",
@@ -8678,7 +8678,7 @@
   },
   {
     "ENG_name": "Adult Gold Dragon",
-    "title": "成年金龙Adult Gold Dragon",
+    "title": "成年金龙",
     "subLine": "巨型龙类（金属龙），守序善良",
     "simpleInfo": {
       "AC": "19",
@@ -8782,7 +8782,7 @@
   },
   {
     "ENG_name": "Ancient Gold Dragon",
-    "title": "远古金龙Ancient Gold Dragon",
+    "title": "远古金龙",
     "subLine": "超巨型龙类（金属龙），守序善良",
     "simpleInfo": {
       "AC": "22",
@@ -8886,7 +8886,7 @@
   },
   {
     "ENG_name": "Pseudodragon",
-    "title": "伪龙Pseudodragon",
+    "title": "伪龙",
     "subLine": "微型龙类，中立善良",
     "simpleInfo": {
       "AC": "14",
@@ -8961,7 +8961,7 @@
   },
   {
     "ENG_name": "Wyvern",
-    "title": "飞龙Wyvern",
+    "title": "飞龙",
     "subLine": "大型龙类，无阵营",
     "simpleInfo": {
       "AC": "14",
@@ -9030,7 +9030,7 @@
   },
   {
     "ENG_name": "Dragon Turtle",
-    "title": "龙龟Dragon Turtle",
+    "title": "龙龟",
     "subLine": "超巨型龙类，中立",
     "simpleInfo": {
       "AC": "20",
@@ -9109,7 +9109,7 @@
   },
   {
     "ENG_name": "Dust Mephit",
-    "title": "尘魔蝠Dust Mephit",
+    "title": "尘魔蝠",
     "subLine": "小型元素，中立邪恶",
     "simpleInfo": {
       "AC": "12",
@@ -9187,7 +9187,7 @@
   },
   {
     "ENG_name": "Ice Mephit",
-    "title": "冰魔蝠Ice Mephit",
+    "title": "冰魔蝠",
     "subLine": "小型元素，中立邪恶",
     "simpleInfo": {
       "AC": "11",
@@ -9265,7 +9265,7 @@
   },
   {
     "ENG_name": "Magma Mephit",
-    "title": "熔岩魔蝠Magma Mephit",
+    "title": "熔岩魔蝠",
     "subLine": "小型元素，中立邪恶",
     "simpleInfo": {
       "AC": "11",
@@ -9339,7 +9339,7 @@
   },
   {
     "ENG_name": "Steam Mephit",
-    "title": "蒸汽魔蝠Steam Mephit",
+    "title": "蒸汽魔蝠",
     "subLine": "小型元素，中立邪恶",
     "simpleInfo": {
       "AC": "10",
@@ -9416,7 +9416,7 @@
   },
   {
     "ENG_name": "Smoke Mephit",
-    "title": "烟魔蝠Smoke Mephit",
+    "title": "烟魔蝠",
     "subLine": "小型元素，中立邪恶",
     "simpleInfo": {
       "AC": "12",
@@ -9489,7 +9489,7 @@
   },
   {
     "ENG_name": "Mud Mephit",
-    "title": "泥魔蝠Mud Mephit",
+    "title": "泥魔蝠",
     "subLine": "小型元素，中立邪恶",
     "simpleInfo": {
       "AC": "11",
@@ -9562,7 +9562,7 @@
   },
   {
     "ENG_name": "Salamander Fire Snake",
-    "title": "火蜥蜴火蛇Salamander Fire Snake",
+    "title": "火蜥蜴火蛇",
     "subLine": "中型元素，中立邪恶",
     "simpleInfo": {
       "AC": "14",
@@ -9631,7 +9631,7 @@
   },
   {
     "ENG_name": "Salamander",
-    "title": "火蜥蜴Salamander",
+    "title": "火蜥蜴",
     "subLine": "大型元素，中立邪恶",
     "simpleInfo": {
       "AC": "15",
@@ -9708,7 +9708,7 @@
   },
   {
     "ENG_name": "Salamander Inferno Master",
-    "title": "火蜥蜴炎狱之主Salamander Inferno Master",
+    "title": "火蜥蜴炎狱之主",
     "subLine": "大型元素，中立邪恶",
     "simpleInfo": {
       "AC": "18",
@@ -9795,7 +9795,7 @@
   },
   {
     "ENG_name": "Lizardfolk Geomancer",
-    "title": "蜥蜴人地脉术师Lizardfolk Geomancer",
+    "title": "蜥蜴人地脉术师",
     "subLine": "中型元素，中立",
     "simpleInfo": {
       "AC": "13",
@@ -9869,7 +9869,7 @@
   },
   {
     "ENG_name": "Lizardfolk Sovereign",
-    "title": "蜥蜴人大王Lizardfolk Sovereign",
+    "title": "蜥蜴人大王",
     "subLine": "中型元素，中立",
     "simpleInfo": {
       "AC": "15",
@@ -9946,7 +9946,7 @@
   },
   {
     "ENG_name": "Azer Sentinel",
-    "title": "火矮人哨兵Azer Sentinel",
+    "title": "火矮人哨兵",
     "subLine": "中型元素，守序中立",
     "simpleInfo": {
       "AC": "17",
@@ -10018,7 +10018,7 @@
   },
   {
     "ENG_name": "Azer Pyromancer",
-    "title": "火矮人烈炎术师Azer Pyromancer",
+    "title": "火矮人烈炎术师",
     "subLine": "中型元素，守序中立",
     "simpleInfo": {
       "AC": "18",
@@ -10105,7 +10105,7 @@
   },
   {
     "ENG_name": "Merfolk Skirmisher",
-    "title": "巡海人鱼Merfolk Skirmisher",
+    "title": "巡海人鱼",
     "subLine": "中型元素，中立",
     "simpleInfo": {
       "AC": "11",
@@ -10172,7 +10172,7 @@
   },
   {
     "ENG_name": "Merfolk Wavebender",
-    "title": "御浪人鱼Merfolk Wavebender",
+    "title": "御浪人鱼",
     "subLine": "中型元素，中立",
     "simpleInfo": {
       "AC": "14",
@@ -10255,7 +10255,7 @@
   },
   {
     "ENG_name": "Aarakocra Skirmisher",
-    "title": "鸟羽人翔空士Aarakocra Skirmisher",
+    "title": "鸟羽人翔空士",
     "subLine": "中型元素，中立",
     "simpleInfo": {
       "AC": "12",
@@ -10321,7 +10321,7 @@
   },
   {
     "ENG_name": "Aarakocra Aeromancer",
-    "title": "鸟羽人风舞术师Aarakocra Aeromancer",
+    "title": "鸟羽人风舞术师",
     "subLine": "中型元素，中立",
     "simpleInfo": {
       "AC": "16",
@@ -10397,7 +10397,7 @@
   },
   {
     "ENG_name": "Air Elemental",
-    "title": "气元素Air Elemental",
+    "title": "气元素",
     "subLine": "大型元素，中立",
     "simpleInfo": {
       "AC": "15",
@@ -10474,7 +10474,7 @@
   },
   {
     "ENG_name": "Fire Elemental",
-    "title": "火元素Fire Elemental",
+    "title": "火元素",
     "subLine": "大型元素，中立",
     "simpleInfo": {
       "AC": "13",
@@ -10559,7 +10559,7 @@
   },
   {
     "ENG_name": "Water Elemental",
-    "title": "水元素Water Elemental",
+    "title": "水元素",
     "subLine": "大型元素，中立",
     "simpleInfo": {
       "AC": "14",
@@ -10640,7 +10640,7 @@
   },
   {
     "ENG_name": "Earth Elemental",
-    "title": "土元素Earth Elemental",
+    "title": "土元素",
     "subLine": "大型元素，中立",
     "simpleInfo": {
       "AC": "17",
@@ -10721,7 +10721,7 @@
   },
   {
     "ENG_name": "Djinni",
-    "title": "气巨灵Djinni",
+    "title": "气巨灵",
     "subLine": "大型元素（巨灵），混乱善良",
     "simpleInfo": {
       "AC": "17",
@@ -10813,7 +10813,7 @@
   },
   {
     "ENG_name": "Efreeti",
-    "title": "火巨灵Efreeti",
+    "title": "火巨灵",
     "subLine": "大型元素（巨灵），中立",
     "simpleInfo": {
       "AC": "17",
@@ -10901,7 +10901,7 @@
   },
   {
     "ENG_name": "Marid",
-    "title": "水巨灵Marid",
+    "title": "水巨灵",
     "subLine": "大型元素（巨灵），混乱中立",
     "simpleInfo": {
       "AC": "17",
@@ -10995,7 +10995,7 @@
   },
   {
     "ENG_name": "Dao",
-    "title": "土巨灵Dao",
+    "title": "土巨灵",
     "subLine": "大型元素（巨灵），中立",
     "simpleInfo": {
       "AC": "18",
@@ -11083,7 +11083,7 @@
   },
   {
     "ENG_name": "Magmin",
-    "title": "火童Magmin",
+    "title": "火童",
     "subLine": "小型元素, 混乱中立",
     "simpleInfo": {
       "AC": "14",
@@ -11156,7 +11156,7 @@
   },
   {
     "ENG_name": "Gargoyle",
-    "title": "石像鬼Gargoyle",
+    "title": "石像鬼",
     "subLine": "中型元素，混乱邪恶",
     "simpleInfo": {
       "AC": "15",
@@ -11228,7 +11228,7 @@
   },
   {
     "ENG_name": "Water Weird",
-    "title": "水诡Water Weird",
+    "title": "水诡",
     "subLine": "大型元素，中立",
     "simpleInfo": {
       "AC": "13",
@@ -11300,7 +11300,7 @@
   },
   {
     "ENG_name": "Xorn",
-    "title": "石鼎兽Xorn",
+    "title": "石鼎兽",
     "subLine": "中型元素生物，中立",
     "simpleInfo": {
       "AC": "19",
@@ -11386,7 +11386,7 @@
   },
   {
     "ENG_name": "Galeb Duhr",
-    "title": "石人Galeb Duhr",
+    "title": "石人",
     "subLine": "中型元素, 中立",
     "simpleInfo": {
       "AC": "16",
@@ -11451,7 +11451,7 @@
   },
   {
     "ENG_name": "Invisible Stalker",
-    "title": "隐形追猎者Invisible Stalker",
+    "title": "隐形追猎者",
     "subLine": "大型元素生物，中立",
     "simpleInfo": {
       "AC": "14",
@@ -11532,7 +11532,7 @@
   },
   {
     "ENG_name": "Elemental Cataclysm",
-    "title": "元初天劫Elemental Cataclysm",
+    "title": "元初天劫",
     "subLine": "超巨型元素（泰坦），混乱邪恶",
     "simpleInfo": {
       "AC": "20",
@@ -11649,7 +11649,7 @@
   },
   {
     "ENG_name": "Goblin Minion",
-    "title": "地精喽啰Goblin Minion",
+    "title": "地精喽啰",
     "subLine": "小型妖精（类地精），混乱中立",
     "simpleInfo": {
       "AC": "12",
@@ -11719,7 +11719,7 @@
   },
   {
     "ENG_name": "Goblin Warrior",
-    "title": "地精武者Goblin Warrior",
+    "title": "地精武者",
     "subLine": "小型妖精（类地精），混乱中立",
     "simpleInfo": {
       "AC": "15",
@@ -11793,7 +11793,7 @@
   },
   {
     "ENG_name": "Goblin Boss",
-    "title": "地精老大Goblin Boss",
+    "title": "地精老大",
     "subLine": "小型妖精（类地精），混乱中立",
     "simpleInfo": {
       "AC": "17",
@@ -11877,7 +11877,7 @@
   },
   {
     "ENG_name": "Goblin Hexer",
-    "title": "地精咒术师Goblin Hexer",
+    "title": "地精咒术师",
     "subLine": "小型妖精（类地精），混乱中立",
     "simpleInfo": {
       "AC": "13",
@@ -11954,7 +11954,7 @@
   },
   {
     "ENG_name": "Bugbear Warrior",
-    "title": "熊地精武者Bugbear Warrior",
+    "title": "熊地精武者",
     "subLine": "中型妖精（类地精），混乱邪恶",
     "simpleInfo": {
       "AC": "14",
@@ -12028,7 +12028,7 @@
   },
   {
     "ENG_name": "Bugbear Stalker",
-    "title": "熊地精追猎者Bugbear Stalker",
+    "title": "熊地精追猎者",
     "subLine": "中型妖精（类地精），混乱邪恶",
     "simpleInfo": {
       "AC": "15",
@@ -12112,7 +12112,7 @@
   },
   {
     "ENG_name": "Hobgoblin Warrior",
-    "title": "大地精武者Hobgoblin Warrior",
+    "title": "大地精武者",
     "subLine": "中型妖精（类地精），守序邪恶",
     "simpleInfo": {
       "AC": "18",
@@ -12185,7 +12185,7 @@
   },
   {
     "ENG_name": "Hobgoblin Captain",
-    "title": "大地精长官Hobgoblin Captain",
+    "title": "大地精长官",
     "subLine": "中型妖精（类地精），守序邪恶",
     "simpleInfo": {
       "AC": "17",
@@ -12262,7 +12262,7 @@
   },
   {
     "ENG_name": "Hobgoblin Warlord",
-    "title": "大地精军阀Hobgoblin Warlord",
+    "title": "大地精军阀",
     "subLine": "中型妖精（类地精），守序邪恶",
     "simpleInfo": {
       "AC": "20",
@@ -12345,7 +12345,7 @@
   },
   {
     "ENG_name": "Bullywug Warrior",
-    "title": "啵灵蛙武者Bullywug Warrior",
+    "title": "啵灵蛙武者",
     "subLine": "中型妖精，中立",
     "simpleInfo": {
       "AC": "15",
@@ -12423,7 +12423,7 @@
   },
   {
     "ENG_name": "Bullywug Bog Sage",
-    "title": "啵灵蛙沼地大贤Bullywug Bog Sage",
+    "title": "啵灵蛙沼地大贤",
     "subLine": "中型妖精，中立",
     "simpleInfo": {
       "AC": "16",
@@ -12510,7 +12510,7 @@
   },
   {
     "ENG_name": "Pixie",
-    "title": "皮克精Pixie",
+    "title": "皮克精",
     "subLine": "微型妖精, 中立善良",
     "simpleInfo": {
       "AC": "15",
@@ -12582,7 +12582,7 @@
   },
   {
     "ENG_name": "Pixie Wonderbringer",
-    "title": "皮克妙妙精Pixie Wonderbringer",
+    "title": "皮克妙妙精",
     "subLine": "微型妖精, 中立善良",
     "simpleInfo": {
       "AC": "15",
@@ -12664,7 +12664,7 @@
   },
   {
     "ENG_name": "Satyr",
-    "title": "半羊人Satyr",
+    "title": "半羊人",
     "subLine": "中型妖精，混乱中立",
     "simpleInfo": {
       "AC": "13",
@@ -12736,7 +12736,7 @@
   },
   {
     "ENG_name": "Satyr Revelmaster",
-    "title": "半羊人欢庆之主Satyr Revelmaster",
+    "title": "半羊人欢庆之主",
     "subLine": "中型妖精，混乱中立",
     "simpleInfo": {
       "AC": "17",
@@ -12820,7 +12820,7 @@
   },
   {
     "ENG_name": "Worg",
-    "title": "座狼Worg",
+    "title": "座狼",
     "subLine": "大型妖精，中立邪恶",
     "simpleInfo": {
       "AC": "13",
@@ -12882,7 +12882,7 @@
   },
   {
     "ENG_name": "Dire Worg",
-    "title": "恐座狼Dire Worg",
+    "title": "恐座狼",
     "subLine": "巨型妖精，中立邪恶",
     "simpleInfo": {
       "AC": "16",
@@ -12964,7 +12964,7 @@
   },
   {
     "ENG_name": "Centaur Trooper",
-    "title": "人马骠骑Centaur Trooper",
+    "title": "人马骠骑",
     "subLine": "大型妖精，中立善良",
     "simpleInfo": {
       "AC": "16",
@@ -13041,7 +13041,7 @@
   },
   {
     "ENG_name": "Centaur Warden",
-    "title": "人马守望者Centaur Warden",
+    "title": "人马守望者",
     "subLine": "大型妖精，中立善良",
     "simpleInfo": {
       "AC": "16",
@@ -13121,7 +13121,7 @@
   },
   {
     "ENG_name": "Sea Hag",
-    "title": "海鬼婆Sea Hag",
+    "title": "海鬼婆",
     "subLine": "中型妖精，混乱邪恶",
     "simpleInfo": {
       "AC": "14",
@@ -13204,7 +13204,7 @@
   },
   {
     "ENG_name": "Green Hag",
-    "title": "绿鬼婆Green Hag",
+    "title": "绿鬼婆",
     "subLine": "中型妖精，中立邪恶",
     "simpleInfo": {
       "AC": "17",
@@ -13288,7 +13288,7 @@
   },
   {
     "ENG_name": "Sprite",
-    "title": "小仙灵Sprite",
+    "title": "小仙灵",
     "subLine": "微型妖精, 中立善良",
     "simpleInfo": {
       "AC": "15",
@@ -13361,7 +13361,7 @@
   },
   {
     "ENG_name": "Blink Dog",
-    "title": "闪现犬Blink Dog",
+    "title": "闪现犬",
     "subLine": "中型妖精，守序善良",
     "simpleInfo": {
       "AC": "13",
@@ -13428,7 +13428,7 @@
   },
   {
     "ENG_name": "Dryad",
-    "title": "树精Dryad",
+    "title": "树精",
     "subLine": "中型妖精，中立",
     "simpleInfo": {
       "AC": "16",
@@ -13517,7 +13517,7 @@
   },
   {
     "ENG_name": "Larva",
-    "title": "幼虫魔Larva",
+    "title": "幼虫魔",
     "subLine": "中型邪魔，中立邪恶",
     "simpleInfo": {
       "AC": "9",
@@ -13578,7 +13578,7 @@
   },
   {
     "ENG_name": "Swarm of Larvae",
-    "title": "幼虫魔集群Swarm of Larvae",
+    "title": "幼虫魔集群",
     "subLine": "中型邪魔的大型集群，中立邪恶",
     "simpleInfo": {
       "AC": "13",
@@ -13647,7 +13647,7 @@
   },
   {
     "ENG_name": "Manes",
-    "title": "原魔Manes",
+    "title": "原魔",
     "subLine": "小型邪魔（恶魔），混乱邪恶",
     "simpleInfo": {
       "AC": "9",
@@ -13711,7 +13711,7 @@
   },
   {
     "ENG_name": "Manes Vaporspawn",
-    "title": "原魔汽化体Manes Vaporspawn",
+    "title": "原魔汽化体",
     "subLine": "中型邪魔（恶魔），混乱邪恶",
     "simpleInfo": {
       "AC": "13",
@@ -13791,7 +13791,7 @@
   },
   {
     "ENG_name": "Dretch",
-    "title": "怯魔Dretch",
+    "title": "怯魔",
     "subLine": "小型邪魔（恶魔），混乱邪恶",
     "simpleInfo": {
       "AC": "11",
@@ -13859,7 +13859,7 @@
   },
   {
     "ENG_name": "Swarm of Dretch",
-    "title": "怯魔集群Swarm of Dretch",
+    "title": "怯魔集群",
     "subLine": "小型邪魔的大型集群（恶魔），混乱邪恶",
     "simpleInfo": {
       "AC": "12",
@@ -13937,7 +13937,7 @@
   },
   {
     "ENG_name": "Quasit",
-    "title": "小恶魔Quasit",
+    "title": "小恶魔",
     "subLine": "微型邪魔（恶魔），混乱邪恶",
     "simpleInfo": {
       "AC": "13",
@@ -14019,7 +14019,7 @@
   },
   {
     "ENG_name": "Shadow Demon",
-    "title": "幽影恶魔Shadow Demon",
+    "title": "幽影恶魔",
     "subLine": "中型邪魔（恶魔），混乱邪恶",
     "simpleInfo": {
       "AC": "14",
@@ -14104,7 +14104,7 @@
   },
   {
     "ENG_name": "Barlgura",
-    "title": "恶猿魔Barlgura",
+    "title": "恶猿魔",
     "subLine": "大型邪魔（恶魔），混乱邪恶",
     "simpleInfo": {
       "AC": "15",
@@ -14192,7 +14192,7 @@
   },
   {
     "ENG_name": "Chasme",
-    "title": "喀嘶魔Chasme",
+    "title": "喀嘶魔",
     "subLine": "大型邪魔（恶魔），混乱邪恶",
     "simpleInfo": {
       "AC": "15",
@@ -14276,7 +14276,7 @@
   },
   {
     "ENG_name": "Vrock",
-    "title": "鹫魔Vrock",
+    "title": "鹫魔",
     "subLine": "大型邪魔（恶魔），混乱邪恶",
     "simpleInfo": {
       "AC": "15",
@@ -14361,7 +14361,7 @@
   },
   {
     "ENG_name": "Hezrou",
-    "title": "狂蟾魔Hezrou",
+    "title": "狂蟾魔",
     "subLine": "大型邪魔（恶魔），混乱邪恶",
     "simpleInfo": {
       "AC": "18",
@@ -14448,7 +14448,7 @@
   },
   {
     "ENG_name": "Glabrezu",
-    "title": "迷诱魔Glabrezu",
+    "title": "迷诱魔",
     "subLine": "大型邪魔（恶魔），混乱邪恶",
     "simpleInfo": {
       "AC": "17",
@@ -14534,7 +14534,7 @@
   },
   {
     "ENG_name": "Yochlol",
-    "title": "蜡融妖Yochlol",
+    "title": "蜡融妖",
     "subLine": "中型邪魔（恶魔），混乱邪恶",
     "simpleInfo": {
       "AC": "15",
@@ -14636,7 +14636,7 @@
   },
   {
     "ENG_name": "Nalfeshnee",
-    "title": "判魂魔Nalfeshnee",
+    "title": "判魂魔",
     "subLine": "大型邪魔（恶魔），混乱邪恶",
     "simpleInfo": {
       "AC": "18",
@@ -14729,7 +14729,7 @@
   },
   {
     "ENG_name": "Marilith",
-    "title": "六臂蛇魔Marilith",
+    "title": "六臂蛇魔",
     "subLine": "大型邪魔（恶魔），混乱邪恶",
     "simpleInfo": {
       "AC": "16",
@@ -14827,7 +14827,7 @@
   },
   {
     "ENG_name": "Goristro",
-    "title": "巨牛魔Goristro",
+    "title": "巨牛魔",
     "subLine": "巨型邪魔（恶魔），混乱邪恶",
     "simpleInfo": {
       "AC": "19",
@@ -14919,7 +14919,7 @@
   },
   {
     "ENG_name": "Balor",
-    "title": "炎魔Balor",
+    "title": "炎魔",
     "subLine": "巨型邪魔（恶魔），混乱邪恶",
     "simpleInfo": {
       "AC": "19",
@@ -15015,7 +15015,7 @@
   },
   {
     "ENG_name": "Lemure",
-    "title": "劣魔Lemure",
+    "title": "劣魔",
     "subLine": "中型邪魔（魔鬼），守序邪恶",
     "simpleInfo": {
       "AC": "9",
@@ -15085,7 +15085,7 @@
   },
   {
     "ENG_name": "Imp",
-    "title": "小魔鬼Imp",
+    "title": "小魔鬼",
     "subLine": "微型邪魔（魔鬼），守序邪恶",
     "simpleInfo": {
       "AC": "13",
@@ -15163,7 +15163,7 @@
   },
   {
     "ENG_name": "Spined Devil",
-    "title": "棘魔Spined Devil",
+    "title": "棘魔",
     "subLine": "小型邪魔（魔鬼），守序邪恶",
     "simpleInfo": {
       "AC": "13",
@@ -15244,7 +15244,7 @@
   },
   {
     "ENG_name": "Bearded Devil",
-    "title": "须魔Bearded Devil",
+    "title": "须魔",
     "subLine": "中型邪魔（魔鬼），守序邪恶",
     "simpleInfo": {
       "AC": "13",
@@ -15321,7 +15321,7 @@
   },
   {
     "ENG_name": "Barbed Devil",
-    "title": "猬魔Barbed Devil",
+    "title": "猬魔",
     "subLine": "中型邪魔（魔鬼），守序邪恶",
     "simpleInfo": {
       "AC": "15",
@@ -15411,7 +15411,7 @@
   },
   {
     "ENG_name": "Chain Devil",
-    "title": "链魔Chain Devil",
+    "title": "链魔",
     "subLine": "中型邪魔（魔鬼），守序邪恶",
     "simpleInfo": {
       "AC": "15",
@@ -15498,7 +15498,7 @@
   },
   {
     "ENG_name": "Bone Devil",
-    "title": "骨魔Bone Devil",
+    "title": "骨魔",
     "subLine": "大型邪魔（魔鬼），守序邪恶",
     "simpleInfo": {
       "AC": "16",
@@ -15580,7 +15580,7 @@
   },
   {
     "ENG_name": "Horned Devil",
-    "title": "角魔Horned Devil",
+    "title": "角魔",
     "subLine": "大型邪魔（魔鬼），守序邪恶",
     "simpleInfo": {
       "AC": "18",
@@ -15665,7 +15665,7 @@
   },
   {
     "ENG_name": "Erinyes",
-    "title": "罪魔Erinyes",
+    "title": "罪魔",
     "subLine": "中型邪魔（魔鬼），守序邪恶",
     "simpleInfo": {
       "AC": "18",
@@ -15757,7 +15757,7 @@
   },
   {
     "ENG_name": "Ice Devil",
-    "title": "冰魔Ice Devil",
+    "title": "冰魔",
     "subLine": "大型邪魔（魔鬼），守序邪恶",
     "simpleInfo": {
       "AC": "18",
@@ -15842,7 +15842,7 @@
   },
   {
     "ENG_name": "Pit Fiend",
-    "title": "深狱炼魔Pit Fiend",
+    "title": "深狱炼魔",
     "subLine": "大型邪魔（魔鬼），守序邪恶",
     "simpleInfo": {
       "AC": "21",
@@ -15940,7 +15940,7 @@
   },
   {
     "ENG_name": "Sahuagin Warrior",
-    "title": "鲨华武者Sahuagin Warrior",
+    "title": "鲨华武者",
     "subLine": "中型邪魔，守序邪恶",
     "simpleInfo": {
       "AC": "12",
@@ -16027,7 +16027,7 @@
   },
   {
     "ENG_name": "Sahuagin Priest",
-    "title": "鲨华祭司Sahuagin Priest",
+    "title": "鲨华祭司",
     "subLine": "中型邪魔，守序邪恶",
     "simpleInfo": {
       "AC": "12",
@@ -16118,7 +16118,7 @@
   },
   {
     "ENG_name": "Sahuagin Baron",
-    "title": "鲨华男爵Sahuagin Baron",
+    "title": "鲨华男爵",
     "subLine": "大型邪魔，守序邪恶",
     "simpleInfo": {
       "AC": "16",
@@ -16206,7 +16206,7 @@
   },
   {
     "ENG_name": "Gnoll Warrior",
-    "title": "鬣狗人武者Gnoll Warrior",
+    "title": "鬣狗人武者",
     "subLine": "中型邪魔，混乱邪恶",
     "simpleInfo": {
       "AC": "15",
@@ -16277,7 +16277,7 @@
   },
   {
     "ENG_name": "Gnoll Pack Lord",
-    "title": "鬣狗人头目Gnoll Pack Lord",
+    "title": "鬣狗人头目",
     "subLine": "中型邪魔，混乱邪恶",
     "simpleInfo": {
       "AC": "15",
@@ -16356,7 +16356,7 @@
   },
   {
     "ENG_name": "Gnoll Fang of Yeenoghu",
-    "title": "鬣狗人耶诺古之牙Gnoll Fang of Yeenoghu",
+    "title": "鬣狗人耶诺古之牙",
     "subLine": "中型邪魔，混乱邪恶",
     "simpleInfo": {
       "AC": "14",
@@ -16431,7 +16431,7 @@
   },
   {
     "ENG_name": "Gnoll Demoniac",
-    "title": "鬣狗人魔头Gnoll Demoniac",
+    "title": "鬣狗人魔头",
     "subLine": "中型邪魔，混乱邪恶",
     "simpleInfo": {
       "AC": "16",
@@ -16507,7 +16507,7 @@
   },
   {
     "ENG_name": "Mezzoloth",
-    "title": "毒虫罗斯魔Mezzoloth",
+    "title": "毒虫罗斯魔",
     "subLine": "中型邪魔（尤格罗斯魔），中立邪恶",
     "simpleInfo": {
       "AC": "18",
@@ -16599,7 +16599,7 @@
   },
   {
     "ENG_name": "Nycaloth",
-    "title": "征伐罗斯魔Nycaloth",
+    "title": "征伐罗斯魔",
     "subLine": "大型邪魔（尤格罗斯魔），中立邪恶",
     "simpleInfo": {
       "AC": "18",
@@ -16683,7 +16683,7 @@
   },
   {
     "ENG_name": "Arcanaloth",
-    "title": "奥法罗斯魔Arcanaloth",
+    "title": "奥法罗斯魔",
     "subLine": "中型邪魔（尤格罗斯魔），中立邪恶",
     "simpleInfo": {
       "AC": "18",
@@ -16785,7 +16785,7 @@
   },
   {
     "ENG_name": "Ultroloth",
-    "title": "超等罗斯魔Ultroloth",
+    "title": "超等罗斯魔",
     "subLine": "中型邪魔（尤格罗斯魔），中立邪恶",
     "simpleInfo": {
       "AC": "19",
@@ -16877,7 +16877,7 @@
   },
   {
     "ENG_name": "Empyrean Iota",
-    "title": "至高天微尘Empyrean Iota",
+    "title": "至高天微尘",
     "subLine": "中型天族或邪魔（泰坦），中立",
     "simpleInfo": {
       "AC": "13",
@@ -16961,7 +16961,7 @@
   },
   {
     "ENG_name": "Empyrean",
-    "title": "至高天Empyrean",
+    "title": "至高天",
     "subLine": "巨型天族或邪魔（泰坦），中立",
     "simpleInfo": {
       "AC": "22",
@@ -17065,7 +17065,7 @@
   },
   {
     "ENG_name": "Jackalwere",
-    "title": "化形胡狼Jackalwere",
+    "title": "化形胡狼",
     "subLine": "小型邪魔，混乱邪恶",
     "simpleInfo": {
       "AC": "12",
@@ -17150,7 +17150,7 @@
   },
   {
     "ENG_name": "Hell Hound",
-    "title": "地狱犬Hell Hound",
+    "title": "地狱犬",
     "subLine": "中型邪魔，守序邪恶",
     "simpleInfo": {
       "AC": "15",
@@ -17226,7 +17226,7 @@
   },
   {
     "ENG_name": "Nightmare",
-    "title": "梦魇Nightmare",
+    "title": "梦魇",
     "subLine": "大型邪魔，中立邪恶",
     "simpleInfo": {
       "AC": "13",
@@ -17301,7 +17301,7 @@
   },
   {
     "ENG_name": "Succubus",
-    "title": "魅魔Succubus",
+    "title": "魅魔",
     "subLine": "中型邪魔，中立邪恶",
     "simpleInfo": {
       "AC": "15",
@@ -17387,7 +17387,7 @@
   },
   {
     "ENG_name": "Incubus",
-    "title": "梦魔Incubus",
+    "title": "梦魔",
     "subLine": "中型邪魔，中立邪恶",
     "simpleInfo": {
       "AC": "15",
@@ -17469,7 +17469,7 @@
   },
   {
     "ENG_name": "Lamia",
-    "title": "拉迷亚Lamia",
+    "title": "拉迷亚",
     "subLine": "大型邪魔，混乱邪恶",
     "simpleInfo": {
       "AC": "13",
@@ -17548,7 +17548,7 @@
   },
   {
     "ENG_name": "Cambion",
-    "title": "坎比翁Cambion",
+    "title": "坎比翁",
     "subLine": "中型邪魔，中立邪恶",
     "simpleInfo": {
       "AC": "19",
@@ -17623,7 +17623,7 @@
   },
   {
     "ENG_name": "Night Hag",
-    "title": "夜鬼婆Night Hag",
+    "title": "夜鬼婆",
     "subLine": "中型邪魔，中立邪恶",
     "simpleInfo": {
       "AC": "17",
@@ -17718,7 +17718,7 @@
   },
   {
     "ENG_name": "Oni",
-    "title": "恶鬼Oni",
+    "title": "恶鬼",
     "subLine": "大型邪魔，守序邪恶",
     "simpleInfo": {
       "AC": "17",
@@ -17808,7 +17808,7 @@
   },
   {
     "ENG_name": "Spirit Naga",
-    "title": "阴魂纳迦Spirit Naga",
+    "title": "阴魂纳迦",
     "subLine": "大型邪魔，混乱邪恶",
     "simpleInfo": {
       "AC": "17",
@@ -17887,7 +17887,7 @@
   },
   {
     "ENG_name": "Rakshasa",
-    "title": "罗刹Rakshasa",
+    "title": "罗刹",
     "subLine": "中型邪魔，守序邪恶",
     "simpleInfo": {
       "AC": "17",
@@ -17972,7 +17972,7 @@
   },
   {
     "ENG_name": "Ogrillon Ogre",
-    "title": "半食人魔Ogrillon Ogre",
+    "title": "半食人魔",
     "subLine": "大型巨人，混乱邪恶",
     "simpleInfo": {
       "AC": "12",
@@ -18038,7 +18038,7 @@
   },
   {
     "ENG_name": "Ogre",
-    "title": "食人魔Ogre",
+    "title": "食人魔",
     "subLine": "大型巨人，混乱邪恶",
     "simpleInfo": {
       "AC": "11",
@@ -18104,7 +18104,7 @@
   },
   {
     "ENG_name": "Hill Giant",
-    "title": "山丘巨人Hill Giant",
+    "title": "山丘巨人",
     "subLine": "巨型巨人，混乱邪恶",
     "simpleInfo": {
       "AC": "13",
@@ -18174,7 +18174,7 @@
   },
   {
     "ENG_name": "Stone Giant",
-    "title": "石巨人Stone Giant",
+    "title": "石巨人",
     "subLine": "巨型巨人，中立",
     "simpleInfo": {
       "AC": "17",
@@ -18250,7 +18250,7 @@
   },
   {
     "ENG_name": "Frost Giant",
-    "title": "霜巨人Frost Giant",
+    "title": "霜巨人",
     "subLine": "巨型巨人，中立邪恶",
     "simpleInfo": {
       "AC": "15",
@@ -18327,7 +18327,7 @@
   },
   {
     "ENG_name": "Fire Giant",
-    "title": "火巨人Fire Giant",
+    "title": "火巨人",
     "subLine": "巨型巨人，守序邪恶",
     "simpleInfo": {
       "AC": "18",
@@ -18398,7 +18398,7 @@
   },
   {
     "ENG_name": "Cloud Giant",
-    "title": "云巨人Cloud Giant",
+    "title": "云巨人",
     "subLine": "巨型巨人，中立",
     "simpleInfo": {
       "AC": "14",
@@ -18478,7 +18478,7 @@
   },
   {
     "ENG_name": "Storm Giant",
-    "title": "风暴巨人Storm Giant",
+    "title": "风暴巨人",
     "subLine": "巨型巨人，混乱善良",
     "simpleInfo": {
       "AC": "16",
@@ -18564,7 +18564,7 @@
   },
   {
     "ENG_name": "Cyclops Sentry",
-    "title": "独眼巨人哨卫Cyclops Sentry",
+    "title": "独眼巨人哨卫",
     "subLine": "巨型巨人，混乱中立",
     "simpleInfo": {
       "AC": "14",
@@ -18639,7 +18639,7 @@
   },
   {
     "ENG_name": "Cyclops Oracle",
-    "title": "独眼巨人先知Cyclops Oracle",
+    "title": "独眼巨人先知",
     "subLine": "巨型巨人，混乱中立",
     "simpleInfo": {
       "AC": "16",
@@ -18719,7 +18719,7 @@
   },
   {
     "ENG_name": "Ettin",
-    "title": "双头巨人Ettin",
+    "title": "双头巨人",
     "subLine": "大型巨人，混乱邪恶",
     "simpleInfo": {
       "AC": "12",
@@ -18789,7 +18789,7 @@
   },
   {
     "ENG_name": "Fomorian",
-    "title": "废陋巨人Fomorian",
+    "title": "废陋巨人",
     "subLine": "巨型巨人，混乱邪恶",
     "simpleInfo": {
       "AC": "14",
@@ -18858,7 +18858,7 @@
   },
   {
     "ENG_name": "Guard",
-    "title": "警卫Guard",
+    "title": "警卫",
     "subLine": "中型或小型类人，中立",
     "simpleInfo": {
       "AC": "16",
@@ -18921,7 +18921,7 @@
   },
   {
     "ENG_name": "Guard Captain",
-    "title": "警卫队长Guard Captain",
+    "title": "警卫队长",
     "subLine": "中型或小型类人，中立",
     "simpleInfo": {
       "AC": "18",
@@ -18992,7 +18992,7 @@
   },
   {
     "ENG_name": "Bandit",
-    "title": "匪徒Bandit",
+    "title": "匪徒",
     "subLine": "中型或小型类人，中立",
     "simpleInfo": {
       "AC": "12",
@@ -19058,7 +19058,7 @@
   },
   {
     "ENG_name": "Bandit Captain",
-    "title": "匪帮队长Bandit Captain",
+    "title": "匪帮队长",
     "subLine": "中型或小型类人，中立",
     "simpleInfo": {
       "AC": "15",
@@ -19135,7 +19135,7 @@
   },
   {
     "ENG_name": "Bandit Deceiver",
-    "title": "匪帮欺诈师Bandit Deceiver",
+    "title": "匪帮欺诈师",
     "subLine": "中型或小型类人，中立",
     "simpleInfo": {
       "AC": "16",
@@ -19210,7 +19210,7 @@
   },
   {
     "ENG_name": "Bandit Crime Lord",
-    "title": "匪帮祸首Bandit Crime Lord",
+    "title": "匪帮祸首",
     "subLine": "中型或小型类人，中立",
     "simpleInfo": {
       "AC": "17",
@@ -19293,7 +19293,7 @@
   },
   {
     "ENG_name": "Noble",
-    "title": "贵族Noble",
+    "title": "贵族",
     "subLine": "中型或小型类人，中立",
     "simpleInfo": {
       "AC": "15",
@@ -19362,7 +19362,7 @@
   },
   {
     "ENG_name": "Noble Prodigy",
-    "title": "贵血天骄Noble Prodigy",
+    "title": "贵血天骄",
     "subLine": "中型或小型类人，中立",
     "simpleInfo": {
       "AC": "16",
@@ -19438,7 +19438,7 @@
   },
   {
     "ENG_name": "Warrior Infantry",
-    "title": "新晋武者Warrior Infantry",
+    "title": "新晋武者",
     "subLine": "中型或小型类人，中立",
     "simpleInfo": {
       "AC": "13",
@@ -19506,7 +19506,7 @@
   },
   {
     "ENG_name": "Warrior Veteran",
-    "title": "历战武者Warrior Veteran",
+    "title": "历战武者",
     "subLine": "中型或小型类人，中立",
     "simpleInfo": {
       "AC": "17",
@@ -19583,7 +19583,7 @@
   },
   {
     "ENG_name": "Warrior Commander",
-    "title": "武将Warrior Commander",
+    "title": "武将",
     "subLine": "中型或小型类人，中立",
     "simpleInfo": {
       "AC": "18",
@@ -19674,7 +19674,7 @@
   },
   {
     "ENG_name": "Priest Acolyte",
-    "title": "侍祭僧侣Priest Acolyte",
+    "title": "侍祭僧侣",
     "subLine": "中型或小型类人（牧师），中立",
     "simpleInfo": {
       "AC": "13",
@@ -19751,7 +19751,7 @@
   },
   {
     "ENG_name": "Priest",
-    "title": "祭司Priest",
+    "title": "祭司",
     "subLine": "中型或小型类人（牧师），中立",
     "simpleInfo": {
       "AC": "13",
@@ -19832,7 +19832,7 @@
   },
   {
     "ENG_name": "Archpriest",
-    "title": "大祭司Archpriest",
+    "title": "大祭司",
     "subLine": "中型或小型类人（牧师），中立",
     "simpleInfo": {
       "AC": "16",
@@ -19913,7 +19913,7 @@
   },
   {
     "ENG_name": "Scout",
-    "title": "斥候Scout",
+    "title": "斥候",
     "subLine": "中型或小型类人，中立",
     "simpleInfo": {
       "AC": "13",
@@ -19984,7 +19984,7 @@
   },
   {
     "ENG_name": "Scout Captain",
-    "title": "斥候队长Scout Captain",
+    "title": "斥候队长",
     "subLine": "中型或小型类人，中立",
     "simpleInfo": {
       "AC": "15",
@@ -20067,7 +20067,7 @@
   },
   {
     "ENG_name": "Tough",
-    "title": "打手Tough",
+    "title": "打手",
     "subLine": "中型或小型类人，中立",
     "simpleInfo": {
       "AC": "12",
@@ -20139,7 +20139,7 @@
   },
   {
     "ENG_name": "Tough Boss",
-    "title": "打手老大Tough Boss",
+    "title": "打手老大",
     "subLine": "中型或小型类人，中立",
     "simpleInfo": {
       "AC": "16",
@@ -20215,7 +20215,7 @@
   },
   {
     "ENG_name": "Performer",
-    "title": "演艺者Performer",
+    "title": "演艺者",
     "subLine": "中型或小型类人，中立",
     "simpleInfo": {
       "AC": "13",
@@ -20284,7 +20284,7 @@
   },
   {
     "ENG_name": "Performer Maestro",
-    "title": "演艺尊师Performer Maestro",
+    "title": "演艺尊师",
     "subLine": "中型或小型类人，中立",
     "simpleInfo": {
       "AC": "18",
@@ -20359,7 +20359,7 @@
   },
   {
     "ENG_name": "Performer Legend",
-    "title": "演艺传奇Performer Legend",
+    "title": "演艺传奇",
     "subLine": "中型或小型类人，中立",
     "simpleInfo": {
       "AC": "20",
@@ -20439,7 +20439,7 @@
   },
   {
     "ENG_name": "Spy",
-    "title": "间谍Spy",
+    "title": "间谍",
     "subLine": "中型或小型类人，中立",
     "simpleInfo": {
       "AC": "12",
@@ -20512,7 +20512,7 @@
   },
   {
     "ENG_name": "Spy Master",
-    "title": "间谍大师Spy Master",
+    "title": "间谍大师",
     "subLine": "中型或小型类人，中立",
     "simpleInfo": {
       "AC": "19",
@@ -20593,7 +20593,7 @@
   },
   {
     "ENG_name": "Pirate",
-    "title": "海盗Pirate",
+    "title": "海盗",
     "subLine": "中型或小型类人，中立",
     "simpleInfo": {
       "AC": "14",
@@ -20663,7 +20663,7 @@
   },
   {
     "ENG_name": "Pirate Captain",
-    "title": "海盗船长Pirate Captain",
+    "title": "海盗船长",
     "subLine": "中型或小型类人，中立",
     "simpleInfo": {
       "AC": "17",
@@ -20746,7 +20746,7 @@
   },
   {
     "ENG_name": "Pirate Admiral",
-    "title": "海盗将军Pirate Admiral",
+    "title": "海盗将军",
     "subLine": "中型或小型类人，中立",
     "simpleInfo": {
       "AC": "20",
@@ -20837,7 +20837,7 @@
   },
   {
     "ENG_name": "Berserker",
-    "title": "狂战士Berserker",
+    "title": "狂战士",
     "subLine": "中型或小型类人，中立",
     "simpleInfo": {
       "AC": "13",
@@ -20905,7 +20905,7 @@
   },
   {
     "ENG_name": "Berserker Commander",
-    "title": "狂战将Berserker Commander",
+    "title": "狂战将",
     "subLine": "中型或小型类人，中立",
     "simpleInfo": {
       "AC": "16",
@@ -20989,7 +20989,7 @@
   },
   {
     "ENG_name": "Mage Apprentice",
-    "title": "魔法学徒Mage Apprentice",
+    "title": "魔法学徒",
     "subLine": "中型或小型类人（法师），中立",
     "simpleInfo": {
       "AC": "15",
@@ -21056,7 +21056,7 @@
   },
   {
     "ENG_name": "Mage",
-    "title": "魔法师Mage",
+    "title": "魔法师",
     "subLine": "中型或小型类人（法师），中立",
     "simpleInfo": {
       "AC": "15",
@@ -21139,7 +21139,7 @@
   },
   {
     "ENG_name": "Archmage",
-    "title": "大法师Archmage",
+    "title": "大法师",
     "subLine": "中型或小型类人（法师），中立",
     "simpleInfo": {
       "AC": "17",
@@ -21229,7 +21229,7 @@
   },
   {
     "ENG_name": "Knight",
-    "title": "骑士Knight",
+    "title": "骑士",
     "subLine": "中型或小型类人，中立",
     "simpleInfo": {
       "AC": "18",
@@ -21304,7 +21304,7 @@
   },
   {
     "ENG_name": "Questing Knight",
-    "title": "天命骑士Questing Knight",
+    "title": "天命骑士",
     "subLine": "中型或小型类人，中立",
     "simpleInfo": {
       "AC": "18",
@@ -21386,7 +21386,7 @@
   },
   {
     "ENG_name": "Vampire Familiar",
-    "title": "血仆Vampire Familiar",
+    "title": "血仆",
     "subLine": "中型或小型类人，中立邪恶",
     "simpleInfo": {
       "AC": "15",
@@ -21467,7 +21467,7 @@
   },
   {
     "ENG_name": "Commoner",
-    "title": "平民Commoner",
+    "title": "平民",
     "subLine": "中型或小型类人，中立",
     "simpleInfo": {
       "AC": "10",
@@ -21534,7 +21534,7 @@
   },
   {
     "ENG_name": "Druid",
-    "title": "德鲁伊Druid",
+    "title": "德鲁伊",
     "subLine": "中型或小型类人，中立",
     "simpleInfo": {
       "AC": "13",
@@ -21608,7 +21608,7 @@
   },
   {
     "ENG_name": "Gladiator",
-    "title": "角斗士Gladiator",
+    "title": "角斗士",
     "subLine": "中型或小型类人，中立",
     "simpleInfo": {
       "AC": "16",
@@ -21684,7 +21684,7 @@
   },
   {
     "ENG_name": "Assassin",
-    "title": "刺客Assassin",
+    "title": "刺客",
     "subLine": "中型或小型类人，中立",
     "simpleInfo": {
       "AC": "16",
@@ -21767,7 +21767,7 @@
   },
   {
     "ENG_name": "Swarm of Stirges",
-    "title": "蚊蝠集群Swarm of Stirges",
+    "title": "蚊蝠集群",
     "subLine": "微型怪兽的中型集群，无阵营",
     "simpleInfo": {
       "AC": "14",
@@ -21836,7 +21836,7 @@
   },
   {
     "ENG_name": "Axe Beak",
-    "title": "斧嘴鸟Axe Beak",
+    "title": "斧嘴鸟",
     "subLine": "大型怪兽，无阵营",
     "simpleInfo": {
       "AC": "11",
@@ -21897,7 +21897,7 @@
   },
   {
     "ENG_name": "Giant Axe Beak",
-    "title": "巨斧嘴鸟Giant Axe Beak",
+    "title": "巨斧嘴鸟",
     "subLine": "巨型怪兽，无阵营",
     "simpleInfo": {
       "AC": "15",
@@ -21966,7 +21966,7 @@
   },
   {
     "ENG_name": "Cockatrice",
-    "title": "蛇鸡Cockatrice",
+    "title": "蛇鸡",
     "subLine": "小型怪兽，无阵营",
     "simpleInfo": {
       "AC": "11",
@@ -22028,7 +22028,7 @@
   },
   {
     "ENG_name": "Cockatrice Regent",
-    "title": "蛇鸡王Cockatrice Regent",
+    "title": "蛇鸡王",
     "subLine": "大型怪兽，无阵营",
     "simpleInfo": {
       "AC": "15",
@@ -22110,7 +22110,7 @@
   },
   {
     "ENG_name": "Quaggoth",
-    "title": "幽邃熊怪Quaggoth",
+    "title": "幽邃熊怪",
     "subLine": "中型怪兽，混乱邪恶",
     "simpleInfo": {
       "AC": "13",
@@ -22183,7 +22183,7 @@
   },
   {
     "ENG_name": "Wererat",
-    "title": "鼠人Wererat",
+    "title": "鼠人",
     "subLine": "中型或小型怪兽（兽化人），中立邪恶",
     "simpleInfo": {
       "AC": "13",
@@ -22264,7 +22264,7 @@
   },
   {
     "ENG_name": "Werewolf",
-    "title": "狼人Werewolf",
+    "title": "狼人",
     "subLine": "中型或小型怪兽（兽化人），混乱邪恶",
     "simpleInfo": {
       "AC": "15",
@@ -22351,7 +22351,7 @@
   },
   {
     "ENG_name": "Wereboar",
-    "title": "野猪人Wereboar",
+    "title": "野猪人",
     "subLine": "中型或小型怪兽（兽化人），中立邪恶",
     "simpleInfo": {
       "AC": "15",
@@ -22432,7 +22432,7 @@
   },
   {
     "ENG_name": "Weretiger",
-    "title": "虎人Weretiger",
+    "title": "虎人",
     "subLine": "中型或小型怪兽（兽化人），中立",
     "simpleInfo": {
       "AC": "12",
@@ -22517,7 +22517,7 @@
   },
   {
     "ENG_name": "Werebear",
-    "title": "熊人Werebear",
+    "title": "熊人",
     "subLine": "中型或小型怪兽（兽化人），中立善良",
     "simpleInfo": {
       "AC": "15",
@@ -22598,7 +22598,7 @@
   },
   {
     "ENG_name": "Bulette Pup",
-    "title": "鲨蜥仔Bulette Pup",
+    "title": "鲨蜥仔",
     "subLine": "中型怪兽，无阵营",
     "simpleInfo": {
       "AC": "16",
@@ -22666,7 +22666,7 @@
   },
   {
     "ENG_name": "Bulette",
-    "title": "鲨蜥Bulette",
+    "title": "鲨蜥",
     "subLine": "大型怪兽，无阵营",
     "simpleInfo": {
       "AC": "17",
@@ -22742,7 +22742,7 @@
   },
   {
     "ENG_name": "Primeval Owlbear",
-    "title": "原初枭熊Primeval Owlbear",
+    "title": "原初枭熊",
     "subLine": "巨型怪兽，无阵营",
     "simpleInfo": {
       "AC": "16",
@@ -22818,7 +22818,7 @@
   },
   {
     "ENG_name": "Yeti",
-    "title": "雪怪Yeti",
+    "title": "雪怪",
     "subLine": "大型怪兽，混乱邪恶",
     "simpleInfo": {
       "AC": "12",
@@ -22899,7 +22899,7 @@
   },
   {
     "ENG_name": "Abominable Yeti",
-    "title": "巨恶雪怪Abominable Yeti",
+    "title": "巨恶雪怪",
     "subLine": "巨型怪兽，混乱邪恶",
     "simpleInfo": {
       "AC": "15",
@@ -22984,7 +22984,7 @@
   },
   {
     "ENG_name": "Young Remorhaz",
-    "title": "青年百足魔兽Young Remorhaz",
+    "title": "青年百足魔兽",
     "subLine": "大型怪兽，无阵营",
     "simpleInfo": {
       "AC": "14",
@@ -23052,7 +23052,7 @@
   },
   {
     "ENG_name": "Remorhaz",
-    "title": "百足魔兽Remorhaz",
+    "title": "百足魔兽",
     "subLine": "巨型怪兽，无阵营",
     "simpleInfo": {
       "AC": "17",
@@ -23126,7 +23126,7 @@
   },
   {
     "ENG_name": "Kenku",
-    "title": "天狗Kenku",
+    "title": "天狗",
     "subLine": "中型怪兽，中立",
     "simpleInfo": {
       "AC": "13",
@@ -23199,7 +23199,7 @@
   },
   {
     "ENG_name": "Troglodyte",
-    "title": "穴蜥人Troglodyte",
+    "title": "穴蜥人",
     "subLine": "中型怪兽，混乱邪恶",
     "simpleInfo": {
       "AC": "11",
@@ -23270,7 +23270,7 @@
   },
   {
     "ENG_name": "Rust Monster",
-    "title": "锈蚀怪Rust Monster",
+    "title": "锈蚀怪",
     "subLine": "中型怪兽，无阵营",
     "simpleInfo": {
       "AC": "14",
@@ -23354,7 +23354,7 @@
   },
   {
     "ENG_name": "Death Dog",
-    "title": "亡命恶犬Death Dog",
+    "title": "亡命恶犬",
     "subLine": "中型怪兽，中立邪恶",
     "simpleInfo": {
       "AC": "12",
@@ -23419,7 +23419,7 @@
   },
   {
     "ENG_name": "Harpy",
-    "title": "鸟妖Harpy",
+    "title": "鸟妖",
     "subLine": "中型怪兽, 混乱邪恶",
     "simpleInfo": {
       "AC": "11",
@@ -23483,7 +23483,7 @@
   },
   {
     "ENG_name": "Hippogriff",
-    "title": "骏鹰Hippogriff",
+    "title": "骏鹰",
     "subLine": "大型怪兽，无阵营",
     "simpleInfo": {
       "AC": "11",
@@ -23554,7 +23554,7 @@
   },
   {
     "ENG_name": "Griffon",
-    "title": "狮鹫Griffon",
+    "title": "狮鹫",
     "subLine": "大型怪兽，无阵营",
     "simpleInfo": {
       "AC": "12",
@@ -23619,7 +23619,7 @@
   },
   {
     "ENG_name": "Mimic",
-    "title": "拟身怪Mimic",
+    "title": "拟身怪",
     "subLine": "中型怪兽，中立",
     "simpleInfo": {
       "AC": "12",
@@ -23697,7 +23697,7 @@
   },
   {
     "ENG_name": "Peryton",
-    "title": "鹿鹰Peryton",
+    "title": "鹿鹰",
     "subLine": "中型怪兽，混乱邪恶",
     "simpleInfo": {
       "AC": "13",
@@ -23772,7 +23772,7 @@
   },
   {
     "ENG_name": "Carrion Crawler",
-    "title": "食腐虫Carrion Crawler",
+    "title": "食腐虫",
     "subLine": "大型怪兽，无阵营",
     "simpleInfo": {
       "AC": "13",
@@ -23847,7 +23847,7 @@
   },
   {
     "ENG_name": "Ankheg",
-    "title": "掘地虫Ankheg",
+    "title": "掘地虫",
     "subLine": "大型怪兽，无阵营",
     "simpleInfo": {
       "AC": "14",
@@ -23917,7 +23917,7 @@
   },
   {
     "ENG_name": "Merrow",
-    "title": "梅洛Merrow",
+    "title": "梅洛",
     "subLine": "大型怪兽，混乱邪恶",
     "simpleInfo": {
       "AC": "13",
@@ -23995,7 +23995,7 @@
   },
   {
     "ENG_name": "Ettercap",
-    "title": "伊特怪Ettercap",
+    "title": "伊特怪",
     "subLine": "中型怪兽，中立邪恶",
     "simpleInfo": {
       "AC": "12",
@@ -24084,7 +24084,7 @@
   },
   {
     "ENG_name": "Basilisk",
-    "title": "石化蜥蜴Basilisk",
+    "title": "石化蜥蜴",
     "subLine": "中型怪兽，无阵营",
     "simpleInfo": {
       "AC": "15",
@@ -24150,7 +24150,7 @@
   },
   {
     "ENG_name": "Displacer Beast",
-    "title": "移位兽Displacer Beast",
+    "title": "移位兽",
     "subLine": "大型怪兽，守序邪恶",
     "simpleInfo": {
       "AC": "13",
@@ -24228,7 +24228,7 @@
   },
   {
     "ENG_name": "Hook Horror",
-    "title": "恐爪怪Hook Horror",
+    "title": "恐爪怪",
     "subLine": "大型怪兽，中立",
     "simpleInfo": {
       "AC": "15",
@@ -24293,7 +24293,7 @@
   },
   {
     "ENG_name": "Doppelganger",
-    "title": "变形怪Doppelganger",
+    "title": "变形怪",
     "subLine": "中型怪兽，中立",
     "simpleInfo": {
       "AC": "14",
@@ -24373,7 +24373,7 @@
   },
   {
     "ENG_name": "Minotaur of Baphomet",
-    "title": "巴弗灭的牛头人Minotaur of Baphomet",
+    "title": "巴弗灭的牛头人",
     "subLine": "大型怪兽，混乱邪恶",
     "simpleInfo": {
       "AC": "14",
@@ -24438,7 +24438,7 @@
   },
   {
     "ENG_name": "Manticore",
-    "title": "刺尾狮Manticore",
+    "title": "刺尾狮",
     "subLine": "大型怪兽，守序邪恶",
     "simpleInfo": {
       "AC": "14",
@@ -24506,7 +24506,7 @@
   },
   {
     "ENG_name": "Phase Spider",
-    "title": "相位蜘蛛Phase Spider",
+    "title": "相位蜘蛛",
     "subLine": "大型怪兽，无阵营",
     "simpleInfo": {
       "AC": "14",
@@ -24591,7 +24591,7 @@
   },
   {
     "ENG_name": "Winter Wolf",
-    "title": "冬狼Winter Wolf",
+    "title": "冬狼",
     "subLine": "大型怪兽，中立邪恶",
     "simpleInfo": {
       "AC": "13",
@@ -24663,7 +24663,7 @@
   },
   {
     "ENG_name": "Umber Hulk",
-    "title": "掘土巨怪Umber Hulk",
+    "title": "掘土巨怪",
     "subLine": "大型怪兽，混乱邪恶",
     "simpleInfo": {
       "AC": "18",
@@ -24751,7 +24751,7 @@
   },
   {
     "ENG_name": "Chimera",
-    "title": "奇美拉Chimera",
+    "title": "奇美拉",
     "subLine": "大型怪兽，混乱邪恶",
     "simpleInfo": {
       "AC": "14",
@@ -24828,7 +24828,7 @@
   },
   {
     "ENG_name": "Medusa",
-    "title": "美杜莎Medusa",
+    "title": "美杜莎",
     "subLine": "中型怪兽，守序邪恶",
     "simpleInfo": {
       "AC": "15",
@@ -24907,7 +24907,7 @@
   },
   {
     "ENG_name": "Drider",
-    "title": "蛛化卓尔Drider",
+    "title": "蛛化卓尔",
     "subLine": "大型怪兽，混乱邪恶",
     "simpleInfo": {
       "AC": "19",
@@ -24996,7 +24996,7 @@
   },
   {
     "ENG_name": "Hydra",
-    "title": "多头蛇Hydra",
+    "title": "多头蛇",
     "subLine": "巨型怪兽，无阵营",
     "simpleInfo": {
       "AC": "15",
@@ -25076,7 +25076,7 @@
   },
   {
     "ENG_name": "Behir",
-    "title": "青足龙蛇Behir",
+    "title": "青足龙蛇",
     "subLine": "巨型怪兽，中立邪恶",
     "simpleInfo": {
       "AC": "17",
@@ -25156,7 +25156,7 @@
   },
   {
     "ENG_name": "Roc",
-    "title": "鹏鸟Roc",
+    "title": "鹏鸟",
     "subLine": "超巨型怪兽，无阵营",
     "simpleInfo": {
       "AC": "15",
@@ -25231,7 +25231,7 @@
   },
   {
     "ENG_name": "Purple Worm",
-    "title": "紫虫Purple Worm",
+    "title": "紫虫",
     "subLine": "超巨型怪兽，无阵营",
     "simpleInfo": {
       "AC": "18",
@@ -25311,7 +25311,7 @@
   },
   {
     "ENG_name": "Kraken",
-    "title": "克拉肯Kraken",
+    "title": "克拉肯",
     "subLine": "超巨型怪兽（泰坦），混乱邪恶",
     "simpleInfo": {
       "AC": "18",
@@ -25413,7 +25413,7 @@
   },
   {
     "ENG_name": "Tarrasque",
-    "title": "泰拉斯奎Tarrasque",
+    "title": "泰拉斯奎",
     "subLine": "超巨型怪兽（泰坦），无阵营",
     "simpleInfo": {
       "AC": "25",
@@ -25530,7 +25530,7 @@
   },
   {
     "ENG_name": "Gray Ooze",
-    "title": "灰泥怪Gray Ooze",
+    "title": "灰泥怪",
     "subLine": "中型泥怪，无阵营",
     "simpleInfo": {
       "AC": "9",
@@ -25604,7 +25604,7 @@
   },
   {
     "ENG_name": "Psychic Gray Ooze",
-    "title": "心能灰泥怪Psychic Gray Ooze",
+    "title": "心能灰泥怪",
     "subLine": "中型泥怪，无阵营",
     "simpleInfo": {
       "AC": "9",
@@ -25684,7 +25684,7 @@
   },
   {
     "ENG_name": "Ochre Jelly",
-    "title": "赭果冻Ochre Jelly",
+    "title": "赭果冻",
     "subLine": "大型泥怪，无阵营",
     "simpleInfo": {
       "AC": "8",
@@ -25762,7 +25762,7 @@
   },
   {
     "ENG_name": "Black Pudding",
-    "title": "黑布丁Black Pudding",
+    "title": "黑布丁",
     "subLine": "大型泥怪，无阵营",
     "simpleInfo": {
       "AC": "7",
@@ -25843,7 +25843,7 @@
   },
   {
     "ENG_name": "Blob of Annihilation",
-    "title": "吞世黏浆Blob of Annihilation",
+    "title": "吞世黏浆",
     "subLine": "超巨型泥怪（泰坦），中立邪恶",
     "simpleInfo": {
       "AC": "18",
@@ -25949,7 +25949,7 @@
   },
   {
     "ENG_name": "Awakened Shrub",
-    "title": "启蒙灌木Awakened Shrub",
+    "title": "启蒙灌木",
     "subLine": "小型植物，中立",
     "simpleInfo": {
       "AC": "9",
@@ -26012,7 +26012,7 @@
   },
   {
     "ENG_name": "Awakened Tree",
-    "title": "启蒙大树Awakened Tree",
+    "title": "启蒙大树",
     "subLine": "巨型植物，中立",
     "simpleInfo": {
       "AC": "13",
@@ -26075,7 +26075,7 @@
   },
   {
     "ENG_name": "Myconid Sprout",
-    "title": "蕈人幼体Myconid Sprout",
+    "title": "蕈人幼体",
     "subLine": "小型植物，守序中立",
     "simpleInfo": {
       "AC": "10",
@@ -26146,7 +26146,7 @@
   },
   {
     "ENG_name": "Myconid Adult",
-    "title": "蕈人成体Myconid Adult",
+    "title": "蕈人成体",
     "subLine": "中型植物，守序中立",
     "simpleInfo": {
       "AC": "12",
@@ -26221,7 +26221,7 @@
   },
   {
     "ENG_name": "Myconid Spore Servant",
-    "title": "蕈人孢子奴仆Myconid Spore Servant",
+    "title": "蕈人孢子奴仆",
     "subLine": "中型或小型植物，无阵营",
     "simpleInfo": {
       "AC": "13",
@@ -26283,7 +26283,7 @@
   },
   {
     "ENG_name": "Myconid Sovereign",
-    "title": "蕈人王Myconid Sovereign",
+    "title": "蕈人王",
     "subLine": "大型植物，守序中立",
     "simpleInfo": {
       "AC": "13",
@@ -26366,7 +26366,7 @@
   },
   {
     "ENG_name": "Shrieker Fungus",
-    "title": "尖叫菌Shrieker Fungus",
+    "title": "尖叫菌",
     "subLine": "中型植物，无阵营",
     "simpleInfo": {
       "AC": "5",
@@ -26428,7 +26428,7 @@
   },
   {
     "ENG_name": "Gas Spore Fungus",
-    "title": "气孢菌Gas Spore Fungus",
+    "title": "气孢菌",
     "subLine": "大型植物，无阵营",
     "simpleInfo": {
       "AC": "8",
@@ -26496,7 +26496,7 @@
   },
   {
     "ENG_name": "Violet Fungus",
-    "title": "紫腐菌Violet Fungus",
+    "title": "紫腐菌",
     "subLine": "中型植物，无阵营",
     "simpleInfo": {
       "AC": "5",
@@ -26562,7 +26562,7 @@
   },
   {
     "ENG_name": "Violet Fungus Necrohulk",
-    "title": "紫腐菌尸聚怪Violet Fungus Necrohulk",
+    "title": "紫腐菌尸聚怪",
     "subLine": "大型植物，中立邪恶",
     "simpleInfo": {
       "AC": "17",
@@ -26638,7 +26638,7 @@
   },
   {
     "ENG_name": "Twig Blight",
-    "title": "枯枝怪Twig Blight",
+    "title": "枯枝怪",
     "subLine": "小型植物，中立邪恶",
     "simpleInfo": {
       "AC": "14",
@@ -26708,7 +26708,7 @@
   },
   {
     "ENG_name": "Needle Blight",
-    "title": "枯针怪Needle Blight",
+    "title": "枯针怪",
     "subLine": "中型植物，中立邪恶",
     "simpleInfo": {
       "AC": "12",
@@ -26774,7 +26774,7 @@
   },
   {
     "ENG_name": "Vine Blight",
-    "title": "枯藤怪Vine Blight",
+    "title": "枯藤怪",
     "subLine": "中型植物，中立邪恶",
     "simpleInfo": {
       "AC": "12",
@@ -26841,7 +26841,7 @@
   },
   {
     "ENG_name": "Tree Blight",
-    "title": "枯树怪Tree Blight",
+    "title": "枯树怪",
     "subLine": "巨型植物，中立邪恶",
     "simpleInfo": {
       "AC": "15",
@@ -26917,7 +26917,7 @@
   },
   {
     "ENG_name": "Gulthias Blight",
-    "title": "甘提亚斯枯殖巨树Gulthias Blight",
+    "title": "甘提亚斯枯殖巨树",
     "subLine": "超巨型植物，中立邪恶",
     "simpleInfo": {
       "AC": "20",
@@ -26999,7 +26999,7 @@
   },
   {
     "ENG_name": "Shambling Mound",
-    "title": "蔓生怪Shambling Mound",
+    "title": "蔓生怪",
     "subLine": "大型植物，无阵营",
     "simpleInfo": {
       "AC": "15",
@@ -27076,7 +27076,7 @@
   },
   {
     "ENG_name": "Treant",
-    "title": "树人Treant",
+    "title": "树人",
     "subLine": "巨型植物，混乱善良",
     "simpleInfo": {
       "AC": "16",
@@ -27156,7 +27156,7 @@
   },
   {
     "ENG_name": "Crawling Claw",
-    "title": "蠕行之爪Crawling Claw",
+    "title": "蠕行之爪",
     "subLine": "微型亡灵，中立邪恶",
     "simpleInfo": {
       "AC": "12",
@@ -27218,7 +27218,7 @@
   },
   {
     "ENG_name": "Skeleton",
-    "title": "骷髅Skeleton",
+    "title": "骷髅",
     "subLine": "中型亡灵，守序邪恶",
     "simpleInfo": {
       "AC": "14",
@@ -27286,7 +27286,7 @@
   },
   {
     "ENG_name": "Warhorse Skeleton",
-    "title": "战马骷髅Warhorse Skeleton",
+    "title": "战马骷髅",
     "subLine": "大型亡灵，守序邪恶",
     "simpleInfo": {
       "AC": "13",
@@ -27349,7 +27349,7 @@
   },
   {
     "ENG_name": "Minotaur Skeleton",
-    "title": "牛头人骷髅Minotaur Skeleton",
+    "title": "牛头人骷髅",
     "subLine": "大型亡灵，守序邪恶",
     "simpleInfo": {
       "AC": "12",
@@ -27416,7 +27416,7 @@
   },
   {
     "ENG_name": "Flaming Skeleton",
-    "title": "燃火骷髅Flaming Skeleton",
+    "title": "燃火骷髅",
     "subLine": "中型亡灵，守序邪恶",
     "simpleInfo": {
       "AC": "15",
@@ -27497,7 +27497,7 @@
   },
   {
     "ENG_name": "Zombie",
-    "title": "丧尸Zombie",
+    "title": "丧尸",
     "subLine": "中型亡灵，中立邪恶",
     "simpleInfo": {
       "AC": "8",
@@ -27565,7 +27565,7 @@
   },
   {
     "ENG_name": "Ogre Zombie",
-    "title": "食人魔丧尸Ogre Zombie",
+    "title": "食人魔丧尸",
     "subLine": "大型亡灵，中立邪恶",
     "simpleInfo": {
       "AC": "8",
@@ -27633,7 +27633,7 @@
   },
   {
     "ENG_name": "Beholder Zombie",
-    "title": "眼魔丧尸Beholder Zombie",
+    "title": "眼魔丧尸",
     "subLine": "大型亡灵，中立邪恶",
     "simpleInfo": {
       "AC": "15",
@@ -27725,7 +27725,7 @@
   },
   {
     "ENG_name": "Ghoul",
-    "title": "食尸鬼Ghoul",
+    "title": "食尸鬼",
     "subLine": "中型亡灵，混乱邪恶",
     "simpleInfo": {
       "AC": "12",
@@ -27795,7 +27795,7 @@
   },
   {
     "ENG_name": "Lacedon Ghoul",
-    "title": "食尸水鬼Lacedon Ghoul",
+    "title": "食尸水鬼",
     "subLine": "中型亡灵，混乱邪恶",
     "simpleInfo": {
       "AC": "12",
@@ -27872,7 +27872,7 @@
   },
   {
     "ENG_name": "Ghast",
-    "title": "妖鬼Ghast",
+    "title": "妖鬼",
     "subLine": "中型亡灵，混乱邪恶",
     "simpleInfo": {
       "AC": "13",
@@ -27945,7 +27945,7 @@
   },
   {
     "ENG_name": "Ghast Gravecaller",
-    "title": "妖鬼坟语者Ghast Gravecaller",
+    "title": "妖鬼坟语者",
     "subLine": "中型亡灵，混乱邪恶",
     "simpleInfo": {
       "AC": "16",
@@ -28025,7 +28025,7 @@
   },
   {
     "ENG_name": "Mummy",
-    "title": "木乃伊Mummy",
+    "title": "木乃伊",
     "subLine": "中型或小型亡灵，守序邪恶",
     "simpleInfo": {
       "AC": "11",
@@ -28096,7 +28096,7 @@
   },
   {
     "ENG_name": "Mummy Lord",
-    "title": "木乃伊领主Mummy Lord",
+    "title": "木乃伊领主",
     "subLine": "中型或小型亡灵（牧师），守序邪恶",
     "simpleInfo": {
       "AC": "17",
@@ -28208,7 +28208,7 @@
   },
   {
     "ENG_name": "Vampire Spawn",
-    "title": "初生吸血鬼Vampire Spawn",
+    "title": "初生吸血鬼",
     "subLine": "中型或小型亡灵，中立邪恶",
     "simpleInfo": {
       "AC": "16",
@@ -28311,7 +28311,7 @@
   },
   {
     "ENG_name": "Vampire Nightbringer",
-    "title": "吸血夜魇Vampire Nightbringer",
+    "title": "吸血夜魇",
     "subLine": "中型或小型亡灵，中立邪恶",
     "simpleInfo": {
       "AC": "16",
@@ -28394,7 +28394,7 @@
   },
   {
     "ENG_name": "Vampire",
-    "title": "吸血鬼Vampire",
+    "title": "吸血鬼",
     "subLine": "中型或小型亡灵，守序邪恶",
     "simpleInfo": {
       "AC": "16",
@@ -28523,7 +28523,7 @@
   },
   {
     "ENG_name": "Vampire Umbral Lord",
-    "title": "吸血鬼暗影尊主Vampire Umbral Lord",
+    "title": "吸血鬼暗影尊主",
     "subLine": "中型或小型亡灵，守序邪恶",
     "simpleInfo": {
       "AC": "16",
@@ -28623,7 +28623,7 @@
   },
   {
     "ENG_name": "Revenant",
-    "title": "还魂鬼Revenant",
+    "title": "还魂鬼",
     "subLine": "中型亡灵，中立",
     "simpleInfo": {
       "AC": "13",
@@ -28710,7 +28710,7 @@
   },
   {
     "ENG_name": "Graveyard Revenant",
-    "title": "还魂尸山Graveyard Revenant",
+    "title": "还魂尸山",
     "subLine": "巨型亡灵，中立",
     "simpleInfo": {
       "AC": "14",
@@ -28787,7 +28787,7 @@
   },
   {
     "ENG_name": "Haunting Revenant",
-    "title": "还魂巨构Haunting Revenant",
+    "title": "还魂巨构",
     "subLine": "超巨型亡灵，中立",
     "simpleInfo": {
       "AC": "20",
@@ -28868,7 +28868,7 @@
   },
   {
     "ENG_name": "Death Knight Aspirant",
-    "title": "死亡骑士志从Death Knight Aspirant",
+    "title": "死亡骑士志从",
     "subLine": "中型或小型亡灵，混乱邪恶",
     "simpleInfo": {
       "AC": "20",
@@ -28958,7 +28958,7 @@
   },
   {
     "ENG_name": "Death Knight",
-    "title": "死亡骑士Death Knight",
+    "title": "死亡骑士",
     "subLine": "中型或小型亡灵，混乱邪恶",
     "simpleInfo": {
       "AC": "20",
@@ -29074,7 +29074,7 @@
   },
   {
     "ENG_name": "Shadow",
-    "title": "幽影Shadow",
+    "title": "幽影",
     "subLine": "中型亡灵，混乱邪恶",
     "simpleInfo": {
       "AC": "12",
@@ -29154,7 +29154,7 @@
   },
   {
     "ENG_name": "Specter",
-    "title": "恶灵Specter",
+    "title": "恶灵",
     "subLine": "中型亡灵，混乱邪恶",
     "simpleInfo": {
       "AC": "12",
@@ -29226,7 +29226,7 @@
   },
   {
     "ENG_name": "Poltergeist",
-    "title": "骚灵Poltergeist",
+    "title": "骚灵",
     "subLine": "中型或小型亡灵，混乱中立",
     "simpleInfo": {
       "AC": "12",
@@ -29308,7 +29308,7 @@
   },
   {
     "ENG_name": "Wight",
-    "title": "尸妖Wight",
+    "title": "尸妖",
     "subLine": "中型亡灵，中立邪恶",
     "simpleInfo": {
       "AC": "14",
@@ -29390,7 +29390,7 @@
   },
   {
     "ENG_name": "Bone Naga",
-    "title": "骸骨纳迦Bone Naga",
+    "title": "骸骨纳迦",
     "subLine": "大型亡灵，中立邪恶",
     "simpleInfo": {
       "AC": "15",
@@ -29463,7 +29463,7 @@
   },
   {
     "ENG_name": "Banshee",
-    "title": "报丧妖Banshee",
+    "title": "报丧妖",
     "subLine": "中型亡灵，混乱邪恶",
     "simpleInfo": {
       "AC": "12",
@@ -29547,7 +29547,7 @@
   },
   {
     "ENG_name": "Ghost",
-    "title": "幽魂Ghost",
+    "title": "幽魂",
     "subLine": "中型亡灵，中立",
     "simpleInfo": {
       "AC": "11",
@@ -29635,7 +29635,7 @@
   },
   {
     "ENG_name": "Flameskull",
-    "title": "燃焰之颅Flameskull",
+    "title": "燃焰之颅",
     "subLine": "微型亡灵，中立邪恶",
     "simpleInfo": {
       "AC": "13",
@@ -29719,7 +29719,7 @@
   },
   {
     "ENG_name": "Wraith",
-    "title": "邪灵Wraith",
+    "title": "邪灵",
     "subLine": "中型或小型亡灵，混乱邪恶",
     "simpleInfo": {
       "AC": "13",
@@ -29795,7 +29795,7 @@
   },
   {
     "ENG_name": "Death Tyrant",
-    "title": "亡眼暴君Death Tyrant",
+    "title": "亡眼暴君",
     "subLine": "大型亡灵（眼魔），守序邪恶",
     "simpleInfo": {
       "AC": "19",
@@ -29931,7 +29931,7 @@
   },
   {
     "ENG_name": "Dracolich",
-    "title": "龙巫妖Dracolich",
+    "title": "龙巫妖",
     "subLine": "巨型或超巨型亡灵，守序邪恶",
     "simpleInfo": {
       "AC": "20",
@@ -30041,7 +30041,7 @@
   },
   {
     "ENG_name": "Demilich",
-    "title": "半巫妖Demilich",
+    "title": "半巫妖",
     "subLine": "微型亡灵，中立邪恶",
     "simpleInfo": {
       "AC": "20",
@@ -30139,7 +30139,7 @@
   },
   {
     "ENG_name": "Lich",
-    "title": "巫妖Lich",
+    "title": "巫妖",
     "subLine": "中型亡灵（法师），中立邪恶",
     "simpleInfo": {
       "AC": "20",
@@ -30249,7 +30249,7 @@
   },
   {
     "ENG_name": "Vampire Familiar",
-    "title": "血仆Vampire Familiar",
+    "title": "血仆",
     "subLine": "中型或小型类人，中立邪恶",
     "simpleInfo": {
       "AC": "15",
@@ -30331,7 +30331,7 @@
   },
   {
     "ENG_name": "Vampire Spawn",
-    "title": "初生吸血鬼Vampire Spawn",
+    "title": "初生吸血鬼",
     "subLine": "中型或小型亡灵，中立邪恶",
     "simpleInfo": {
       "AC": "16",
@@ -30435,7 +30435,7 @@
   },
   {
     "ENG_name": "Vampire Nightbringer",
-    "title": "吸血夜魇Vampire Nightbringer",
+    "title": "吸血夜魇",
     "subLine": "中型或小型亡灵，中立邪恶",
     "simpleInfo": {
       "AC": "16",
@@ -30519,7 +30519,7 @@
   },
   {
     "ENG_name": "Vampire",
-    "title": "吸血鬼Vampire",
+    "title": "吸血鬼",
     "subLine": "中型或小型亡灵，守序邪恶",
     "simpleInfo": {
       "AC": "16",
@@ -30649,7 +30649,7 @@
   },
   {
     "ENG_name": "Vampire Umbral Lord",
-    "title": "吸血鬼暗影尊主Vampire Umbral Lord",
+    "title": "吸血鬼暗影尊主",
     "subLine": "中型或小型亡灵，守序邪恶",
     "simpleInfo": {
       "AC": "16",
@@ -30750,7 +30750,7 @@
   },
   {
     "ENG_name": "Sea Hag",
-    "title": "海鬼婆Sea Hag",
+    "title": "海鬼婆",
     "subLine": "中型妖精，混乱邪恶",
     "simpleInfo": {
       "AC": "14",
@@ -30834,7 +30834,7 @@
   },
   {
     "ENG_name": "Green Hag",
-    "title": "绿鬼婆Green Hag",
+    "title": "绿鬼婆",
     "subLine": "中型妖精，中立邪恶",
     "simpleInfo": {
       "AC": "17",
@@ -30919,7 +30919,7 @@
   },
   {
     "ENG_name": "Night Hag",
-    "title": "夜鬼婆Night Hag",
+    "title": "夜鬼婆",
     "subLine": "中型邪魔，中立邪恶",
     "simpleInfo": {
       "AC": "17",
@@ -31016,7 +31016,7 @@
   },
   {
     "ENG_name": "Spectator",
-    "title": "观察者眼魔Spectator",
+    "title": "观察者眼魔",
     "subLine": "中型异怪（眼魔），守序中立",
     "simpleInfo": {
       "AC": "14",
@@ -31110,7 +31110,7 @@
   },
   {
     "ENG_name": "Beholder Zombie",
-    "title": "眼魔丧尸Beholder Zombie",
+    "title": "眼魔丧尸",
     "subLine": "大型亡灵，中立邪恶",
     "simpleInfo": {
       "AC": "15",
@@ -31203,7 +31203,7 @@
   },
   {
     "ENG_name": "Beholder",
-    "title": "眼魔Beholder",
+    "title": "眼魔",
     "subLine": "大型异怪，守序邪恶",
     "simpleInfo": {
       "AC": "18",
@@ -31341,7 +31341,7 @@
   },
   {
     "ENG_name": "Death Tyrant",
-    "title": "亡眼暴君Death Tyrant",
+    "title": "亡眼暴君",
     "subLine": "大型亡灵（眼魔），守序邪恶",
     "simpleInfo": {
       "AC": "19",
@@ -31479,7 +31479,7 @@
   },
   {
     "ENG_name": "Bone Naga",
-    "title": "骸骨纳迦Bone Naga",
+    "title": "骸骨纳迦",
     "subLine": "大型亡灵，中立邪恶",
     "simpleInfo": {
       "AC": "15",
@@ -31554,7 +31554,7 @@
   },
   {
     "ENG_name": "Spirit Naga",
-    "title": "阴魂纳迦Spirit Naga",
+    "title": "阴魂纳迦",
     "subLine": "大型邪魔，混乱邪恶",
     "simpleInfo": {
       "AC": "17",
@@ -31635,7 +31635,7 @@
   },
   {
     "ENG_name": "Guardian Naga",
-    "title": "守秘纳迦Guardian Naga",
+    "title": "守秘纳迦",
     "subLine": "大型天族，守序善良",
     "simpleInfo": {
       "AC": "18",
@@ -31717,7 +31717,7 @@
   },
   {
     "ENG_name": "Empyrean Iota",
-    "title": "至高天微尘Empyrean Iota",
+    "title": "至高天微尘",
     "subLine": "中型天族或邪魔（泰坦），中立",
     "simpleInfo": {
       "AC": "13",
@@ -31803,7 +31803,7 @@
   },
   {
     "ENG_name": "Empyrean",
-    "title": "至高天Empyrean",
+    "title": "至高天",
     "subLine": "巨型天族或邪魔（泰坦），中立",
     "simpleInfo": {
       "AC": "22",
@@ -31909,7 +31909,7 @@
   },
   {
     "ENG_name": "Elemental Cataclysm",
-    "title": "元初天劫Elemental Cataclysm",
+    "title": "元初天劫",
     "subLine": "超巨型元素（泰坦），混乱邪恶",
     "simpleInfo": {
       "AC": "20",
@@ -32028,7 +32028,7 @@
   },
   {
     "ENG_name": "Blob of Annihilation",
-    "title": "吞世黏浆Blob of Annihilation",
+    "title": "吞世黏浆",
     "subLine": "超巨型泥怪（泰坦），中立邪恶",
     "simpleInfo": {
       "AC": "18",
@@ -32136,7 +32136,7 @@
   },
   {
     "ENG_name": "Kraken",
-    "title": "克拉肯Kraken",
+    "title": "克拉肯",
     "subLine": "超巨型怪兽（泰坦），混乱邪恶",
     "simpleInfo": {
       "AC": "18",
@@ -32240,7 +32240,7 @@
   },
   {
     "ENG_name": "Colossus",
-    "title": "巨神兵Colossus",
+    "title": "巨神兵",
     "subLine": "超巨型构装（泰坦），无阵营",
     "simpleInfo": {
       "AC": "23",
@@ -32348,7 +32348,7 @@
   },
   {
     "ENG_name": "Tarrasque",
-    "title": "泰拉斯奎Tarrasque",
+    "title": "泰拉斯奎",
     "subLine": "超巨型怪兽（泰坦），无阵营",
     "simpleInfo": {
       "AC": "25",

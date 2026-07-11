@@ -1,5 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
+import { parseMonsterTitleLine } from "../parser/monster-misc";
 import { parseMonsterTxtSplitToJson } from "../parser/monster-txt-split-to-json";
 
 const monsterTxt = `吉斯洋基龙巫Githyanki Dracomancer
@@ -29,6 +30,8 @@ CR 16（15,000 XP；PB+5）
 test("parses current two-row abilities without leaking them into simpleInfo", () => {
   const card = parseMonsterTxtSplitToJson(monsterTxt);
 
+  assert.equal(card.title, "吉斯洋基龙巫");
+  assert.equal(card.ENG_name, "Githyanki Dracomancer");
   assert.equal(card.simpleInfo["智力"], undefined);
   assert.deepEqual(card.abilities.int, {
     name: "智力",
@@ -41,6 +44,13 @@ test("parses current two-row abilities without leaking them into simpleInfo", ()
     score: 18,
     mod: "+4",
     save: "+4",
+  });
+});
+
+test("keeps a Chinese-only title as the Chinese name", () => {
+  assert.deepEqual(parseMonsterTitleLine("巨鳄鱼"), {
+    name_CH: "巨鳄鱼",
+    name_ENG: "",
   });
 });
 

@@ -1,5 +1,5 @@
 import { MonsterCard, AbilityEntry, AbilityName } from "../card-types";
-import { isNewBlockTitle } from "./monster-misc";
+import { isNewBlockTitle, parseMonsterTitleLine } from "./monster-misc";
 
 /**
  * 施法动作描述如下，需要特殊处理
@@ -32,8 +32,8 @@ export function parseMonsterTxtSplitToJson(txt: string): MonsterCard {
   const remainingLines = [...lines];
   const fetchNextLine = () => remainingLines.shift() ?? "";
 
-  const title = fetchNextLine(); // 例如：平民Commoner
-  const eng_name = ((title ?? "").match(/[A-Za-z][A-Za-z0-9_\- ]*/) || [title])[0];
+  const titleLine = fetchNextLine(); // 例如：平民Commoner
+  const { name_CH, name_ENG } = parseMonsterTitleLine(titleLine);
   const subLine = fetchNextLine(); // 例如：中型或小型类人，中立
 
   const fineNextKeyIndex = (line: string, start: number) => {
@@ -171,8 +171,8 @@ export function parseMonsterTxtSplitToJson(txt: string): MonsterCard {
   }
 
   return {
-    ENG_name: eng_name,
-    title: title ?? "",
+    ENG_name: name_ENG,
+    title: name_CH,
     subLine: subLine ?? "",
     simpleInfo,
     abilities: {

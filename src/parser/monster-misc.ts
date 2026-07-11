@@ -11,9 +11,11 @@ export function parseMonsterTitleLine(line: string) {
   // const name_CH = line.slice(0, splitIndex);
   // const name_ENG = line.slice(splitIndex + 1);
 
-  // 方式 2
-  const name_ENG = (line.match(/[A-Za-z][A-Za-z0-9_\- ]*/) || [line])[0];
-  const name_CH = line.replace(name_ENG, "").trim();
+  // 方式 2：从第一个英文字母开始视为英文名，之前为中文名。
+  // 纯中文标题也要保留在 name_CH，不能误当成英文名。
+  const englishMatch = line.match(/[A-Za-z][A-Za-z0-9_\- ]*/);
+  const name_ENG = englishMatch?.[0].trim() ?? "";
+  const name_CH = englishMatch ? line.replace(englishMatch[0], "").trim() : line.trim();
   return { name_CH, name_ENG };
 }
 
@@ -50,6 +52,7 @@ const linesMapKey = [
 ];
 export function isNewBlockTitle(line: string) {
   for (const item of linesMapKey) {
-    if (item.from.find((e) => normalizeBlockTitle(e) === normalizeBlockTitle(line))) return item.key;
+    if (item.from.find((e) => normalizeBlockTitle(e) === normalizeBlockTitle(line)))
+      return item.key;
   }
 }
