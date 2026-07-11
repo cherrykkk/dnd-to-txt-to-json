@@ -1,6 +1,6 @@
 import { batchFetchHtmlThenToJsonThenWriteFile } from "batch/monsters-to-json";
 import { fetchGitFiles, recurFetchGitFiles } from "api/fetch-folder";
-import fs from "node:fs";
+import { fetchRawFromGitHub, resolveGitHubRef } from "api/fetch-html";
 import { wcpJsonFind, wcpToJson } from "parser/wcp-to-json";
 import { writeTxtToFile } from "api/read-write";
 import { gatherTxtAndJsonArr, wcpNodeToTxtAndJson } from "batch/monster-wcp-node-to-json";
@@ -12,16 +12,18 @@ import { gatherTxtAndJsonArr, wcpNodeToTxtAndJson } from "batch/monster-wcp-node
 // ];
 // batchFetchHtmlThenToJsonThenWriteFile(testFilePaths, "test");
 
-// // 1. 读取 WCP（注意 DND5e_chm 的 WCP 是 UTF-16LE）
-const buf = fs.readFileSync("./files-input/不全书.wcp");
-const text = buf.toString("utf16le"); // 如果你确认是 ANSI/UTF-8，就改相应编码
+// 固定一次远端提交，确保 WCP 索引和随后读取的 HTML 来自同一版本。
+const ref = await resolveGitHubRef();
+const buf = await fetchRawFromGitHub("不全书.wcp", ref);
+const isUtf16Le = (buf[0] === 0xff && buf[1] === 0xfe) || buf[1] === 0;
+const text = buf.toString(isUtf16Le ? "utf16le" : "utf8").replace(/^\uFEFF/, "");
 const wcpJson = wcpToJson(text);
 const wcpNode = wcpJsonFind(wcpJson, "怪物图鉴2025");
 console.log(wcpNode);
 if (!wcpNode) throw new Error("no wcpNode");
 const validNode = wcpNode.children.filter((e) => e.title !== "前言");
 
-const tasks = await Promise.all(validNode.map((e) => wcpNodeToTxtAndJson(e)));
+const tasks = await Promise.all(validNode.map((e) => wcpNodeToTxtAndJson(e, ref)));
 const output = gatherTxtAndJsonArr(tasks);
 
 writeTxtToFile(JSON.stringify(output.cards, null, 2), "monster-list.json");

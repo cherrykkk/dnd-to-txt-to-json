@@ -2,20 +2,51 @@ import iconv from "iconv-lite";
 import { GITHUB_TOKEN } from "api/github-token";
 import { WcpNode } from "parser/wcp-to-json";
 
-export async function fetchWcpNodeFileFromGithub(node: WcpNode) {
+const REPOSITORY_API_URL = "https://api.github.com/repos/DND5eChm/DND5e_chm";
+
+function githubHeaders(accept = "application/vnd.github+json") {
+  return {
+    Accept: accept,
+    "User-Agent": "node-script",
+    Authorization: `Bearer ${GITHUB_TOKEN}`,
+    "X-GitHub-Api-Version": "2022-11-28",
+  };
+}
+
+export async function resolveGitHubRef(ref = "main") {
+  const url = `${REPOSITORY_API_URL}/commits/${encodeURIComponent(ref)}`;
+  const res = await fetch(url, { headers: githubHeaders() });
+  if (!res.ok) {
+    throw new Error(`GitHub API error: ${res.status} ${res.statusText} (${url})`);
+  }
+
+  const commit = (await res.json()) as { sha: string };
+  return commit.sha;
+}
+
+export async function fetchRawFromGitHub(path: string, ref = "main") {
+  const url = `${REPOSITORY_API_URL}/contents/${encodeURIComponent(path)}?ref=${encodeURIComponent(ref)}`;
+  const res = await fetch(url, {
+    headers: githubHeaders("application/vnd.github.raw+json"),
+  });
+  if (!res.ok) {
+    throw new Error(`GitHub API error: ${res.status} ${res.statusText} (${url})`);
+  }
+
+  return Buffer.from(await res.arrayBuffer());
+}
+
+export async function fetchWcpNodeFileFromGithub(node: WcpNode, ref = "main") {
   const validUrl = node.url.replaceAll("\\", "/");
-  const html = await fetchFromGitHub(validUrl);
+  const html = await fetchFromGitHub(validUrl, ref);
   return html;
 }
 
 export async function fetchFromGitHub(path: string, ref = "main") {
   // 好像不用 encodeURIComponent 也行
-  const url = `https://api.github.com/repos/DND5eChm/DND5e_chm/contents/${encodeURIComponent(path)}?ref=${ref}`;
+  const url = `${REPOSITORY_API_URL}/contents/${encodeURIComponent(path)}?ref=${encodeURIComponent(ref)}`;
   const res = await fetch(url, {
-    headers: {
-      "User-Agent": "node-script",
-      Authorization: `Bearer ${GITHUB_TOKEN}`,
-    },
+    headers: githubHeaders(),
   });
   console.log(res.status, "剩余配额：", res.headers.get("x-ratelimit-remaining"));
 

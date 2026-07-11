@@ -9,15 +9,6 @@ import { isNewBlockTitle } from "./monster-misc";
  每项1/日：连锁闪电Chain Lightning，死亡一指Finger of Death，律令死亡Power Word Kill，探知术Scrying
  */
 
-const ABILITY_NAME_MAP = {
-  力量: "str",
-  敏捷: "dex",
-  体质: "con",
-  智力: "ins",
-  感知: "wis",
-  魅力: "cha",
-};
-
 const INFO_KEYS = ["HP", "AC", "先攻", "速度", "生命值", "护甲等级"];
 const REPLACE_KEY: Record<string, string> = {
   生命值: "HP",
@@ -84,6 +75,12 @@ export function parseMonsterTxtSplitToJson(txt: string): MonsterCard {
     curLine = fetchNextLine();
   }
 
+  // 第一行能力值已经由上面的循环取出；第二行也必须在进入通用信息解析前消费掉。
+  // 否则“智力 … 感知 … 魅力 …”会被错误写入 simpleInfo.智力。
+  if (remainingLines[0]?.startsWith("智力")) {
+    fetchNextLine();
+  }
+
   // console.log(simpleInfo);
 
   function parseAbilityRow(row: string | undefined) {
@@ -111,21 +108,32 @@ export function parseMonsterTxtSplitToJson(txt: string): MonsterCard {
   };
 
   let curBlock = "";
-  let inSpellcasting = false; // 5e 的施法描述不太规范
   const traitsAndActions: Record<string, { name: string; text: string }[]> = {};
   const appendToLast = (arr: { name: string; text: string }[], extraLine: string) => {
     if (arr.length === 0) return false;
     const lastItem = arr[arr.length - 1];
+    if (!lastItem) return false;
     const separator = lastItem.text ? "\n" : "";
     lastItem.text = `${lastItem.text}${separator}${extraLine}`;
     return true;
   };
+
+  /**
+   * 判断按第一个“。”拆出的候选项是否真的是一条新特质或新动作。
+   *
+   * HTML 转成纯文本后，条目和描述续行都只剩普通文本行：
+   * - 返回 true：把 item 作为 curBlock 中的新条目加入数组；
+   * - 返回 false：调用方会尝试用 appendToLast 将原始行接到上一条的 text。
+   *
+   * 当前格式以双语名称作为稳定信号；纯中文只明确支持数字结果子项。
+   * 其他纯中文行没有足够结构信息区分名称和描述，统一作为续行处理。
+   */
   const isLikelyNewEntry = (item: { name: string; text: string }) => {
     const trimmedName = item.name.trim();
     if (!trimmedName) return false;
-    if (trimmedName.length > 20) return false; // 长句更可能是上一行的续写
-    if (/[，,:：]/.test(trimmedName)) return false; // 名称通常不含逗号/冒号
-    return true;
+    if (/[，,:：；;]/.test(trimmedName)) return false; // 含句内标点时更可能是描述续写
+    if (/[A-Za-z]/.test(trimmedName)) return true; // 双语条目名可能很长，不能按字符数截断
+    return /^\d+(?:[~～-]\d+)?。$/.test(trimmedName); // 如“1~4。”的随机结果子项
   };
 
   while (remainingLines.length > 0) {
@@ -133,7 +141,6 @@ export function parseMonsterTxtSplitToJson(txt: string): MonsterCard {
     const newBlockTitle = isNewBlockTitle(line);
     if (newBlockTitle) {
       curBlock = newBlockTitle;
-      inSpellcasting = false;
       continue;
     }
 
@@ -153,33 +160,13 @@ export function parseMonsterTxtSplitToJson(txt: string): MonsterCard {
 
     if (curBlock) {
       const curArr = traitsAndActions[curBlock] ?? [];
-      if (inSpellcasting) {
-        const lastItem = curArr[curArr.length - 1];
-        if (!lastItem) {
-          console.log(
-            "unexpected spellcasting line:",
-            line,
-            "curBlock:",
-            curBlock,
-            "curArr:",
-            curArr,
-          );
-          continue;
-        }
-        lastItem.text += "\n" + line;
-        continue;
-      } else {
-        const item = splitNameAndText(line);
-        if (!isLikelyNewEntry(item) && appendToLast(curArr, line)) {
-          traitsAndActions[curBlock] = curArr;
-          continue;
-        }
-        curArr.push(item);
+      const item = splitNameAndText(line);
+      if (!isLikelyNewEntry(item) && appendToLast(curArr, line)) {
         traitsAndActions[curBlock] = curArr;
-        if (line.startsWith("施法Spellcasting。")) {
-          inSpellcasting = true;
-        }
+        continue;
       }
+      curArr.push(item);
+      traitsAndActions[curBlock] = curArr;
     }
   }
 
