@@ -16,38 +16,66 @@ export function splitMonsterTxt(txt: string) {
 
   const lines = txt.split("\n");
 
-  let inCard = false;
+  /** 第一行不一定是标题，有可能是图片，例如：
+   * [helmed-horror.jpg]
+   * 恐怖铠甲对魔法师的闪电束免疫
+   * 恐怖铠甲 Helmed Horror
+   */
+  const titleIndex = lines.findIndex(isTitleLine);
+  if (titleIndex === -1) return { name_CH, name_ENG, backgroundStory, monsterCard };
 
-  for (let i = 0; i < lines.length; i++) {
-    const line = lines[i];
-    if (line === undefined) break;
+  const name = parseMonsterTitleLine(lines[titleIndex] ?? "");
+  name_CH = name.name_CH;
+  name_ENG = name.name_ENG;
 
-    /** 第一行不一定是标题，有可能是图片，例如：
-     * [helmed-horror.jpg]
-     * 恐怖铠甲对魔法师的闪电束免疫
-     * 恐怖铠甲 Helmed Horror
-     */
+  const hasMonsterCardStructure = (candidateIndex: number) => {
+    const cardHeaderLines = lines
+      .slice(candidateIndex + 1)
+      .map((line) => line.trim())
+      .filter(Boolean)
+      .slice(0, 12);
 
-    if (!name_CH || !name_ENG) {
-      if (isTitleLine(line)) {
-        const name = parseMonsterTitleLine(line);
-        name_CH = name.name_CH;
-        name_ENG = name.name_ENG;
-        continue;
-      } else {
-        continue;
-      }
-    }
+    return (
+      cardHeaderLines.some((line) => /^(?:AC|护甲等级)(?:\s|[:：])/.test(line)) &&
+      cardHeaderLines.some((line) => /^(?:HP|生命值)(?:\s|[:：])/.test(line)) &&
+      cardHeaderLines.some((line) => /^速度(?:\s|[:：])/.test(line)) &&
+      cardHeaderLines.some(
+        (line) => line.includes("力量") && line.includes("敏捷") && line.includes("体质"),
+      ) &&
+      cardHeaderLines.some(
+        (line) => line.includes("智力") && line.includes("感知") && line.includes("魅力"),
+      )
+    );
+  };
 
-    if (line === name_CH + name_ENG) {
-      inCard = true;
-    }
-    if (inCard) {
-      monsterCard += line + "\n";
-    } else {
-      backgroundStory += line + "\n";
+  // 普通条目会在背景和数据卡开头各出现一次标题；附录中的纯数据卡页面只有一次。
+  // 只接受后面紧跟完整属性骨架的同名标题，避免把说明页的双语小标题当成怪物卡。
+  let cardTitleIndex = hasMonsterCardStructure(titleIndex) ? titleIndex : -1;
+  for (let i = titleIndex + 1; i < lines.length; i++) {
+    const line = lines[i] ?? "";
+    if (!isTitleLine(line)) continue;
+
+    const candidate = parseMonsterTitleLine(line);
+    if (
+      candidate.name_CH === name_CH &&
+      candidate.name_ENG === name_ENG &&
+      hasMonsterCardStructure(i)
+    ) {
+      cardTitleIndex = i;
     }
   }
+
+  if (cardTitleIndex === -1) {
+    backgroundStory = lines.slice(titleIndex + 1).join("\n");
+    if (backgroundStory && !backgroundStory.endsWith("\n")) backgroundStory += "\n";
+    return { name_CH, name_ENG, backgroundStory, monsterCard };
+  }
+
+  backgroundStory = lines.slice(titleIndex + 1, cardTitleIndex).join("\n");
+  if (backgroundStory) backgroundStory += "\n";
+
+  monsterCard = lines.slice(cardTitleIndex).join("\n");
+  if (monsterCard && !monsterCard.endsWith("\n")) monsterCard += "\n";
 
   return { name_CH, name_ENG, backgroundStory, monsterCard };
 }
