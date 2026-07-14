@@ -25,6 +25,19 @@ test("treats an appendix page with one title as a monster card", () => {
   assert.equal(parsedCard.subLine, "微型野兽，无阵营");
 });
 
+test("accepts a hyphen in an English monster title", () => {
+  const saberToothedTigerCard = card.replace("獾Badger", "剑齿虎Saber-Toothed Tiger");
+  const result = splitMonsterTxt(saberToothedTigerCard);
+
+  assert.equal(result.name_CH, "剑齿虎");
+  assert.equal(result.name_ENG, "Saber-Toothed Tiger");
+  assert.equal(result.monsterCard, `${saberToothedTigerCard}\n`);
+
+  const parsedCard = parseMonsterTxtSplitToJson(result.monsterCard);
+  assert.equal(parsedCard.title, "剑齿虎");
+  assert.equal(parsedCard.ENG_name, "Saber-Toothed Tiger");
+});
+
 test("uses the last matching title after the background as the card start", () => {
   const result = splitMonsterTxt(`獾 Badger
 生活在地下的动物。

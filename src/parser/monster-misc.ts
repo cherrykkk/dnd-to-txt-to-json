@@ -1,7 +1,7 @@
 export function isTitleLine(line: string) {
-  // 正则表达式：必须同时包含汉字和英文字母，空格可选
+  // 正则表达式：必须同时包含汉字和英文字母，英文名可包含空格和连字符
   const regex =
-    /^(?=.*[\u4e00-\u9fff\u3400-\u4dbf])(?=.*[a-zA-Z])[\u4e00-\u9fff\u3400-\u4dbfa-zA-Z ]+$/;
+    /^(?=.*[\u4e00-\u9fff\u3400-\u4dbf])(?=.*[a-zA-Z])[\u4e00-\u9fff\u3400-\u4dbfa-zA-Z -]+$/;
   return regex.test(line);
 }
 

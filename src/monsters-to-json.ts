@@ -4,6 +4,7 @@ import { fetchRawFromGitHub, resolveGitHubRef } from "api/fetch-html";
 import { wcpJsonFind, wcpToJson } from "parser/wcp-to-json";
 import { writeTxtToFile } from "api/read-write";
 import { gatherTxtAndJsonArr, wcpNodeToTxtAndJson } from "batch/monster-wcp-node-to-json";
+import type { MonsterTreeNode } from "batch/monster-wcp-node-to-json";
 
 // const testFilePaths = [
 //   "怪物图鉴2025/亡灵/骷髅/骷髅总.htm",
@@ -25,8 +26,13 @@ const validNode = wcpNode.children.filter((e) => e.title !== "前言");
 
 const tasks = await Promise.all(validNode.map((e) => wcpNodeToTxtAndJson(e, ref)));
 const output = gatherTxtAndJsonArr(tasks);
+const tree: MonsterTreeNode = {
+  title: wcpNode.title,
+  children: output.tree,
+};
 
 writeTxtToFile(JSON.stringify(output.cards, null, 2), "monster-list.json");
+writeTxtToFile(JSON.stringify(tree, null, 2), "monster-tree.json");
 writeTxtToFile(output.allTxt, "monster-list.txt");
 
 // const recurFolderBase = `怪物图鉴2025`;
